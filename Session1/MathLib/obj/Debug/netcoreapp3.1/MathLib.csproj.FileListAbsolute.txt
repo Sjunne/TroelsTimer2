@@ -1,0 +1,13 @@
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\bin\Debug\netcoreapp3.1\MathLib.exe
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\bin\Debug\netcoreapp3.1\MathLib.deps.json
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\bin\Debug\netcoreapp3.1\MathLib.runtimeconfig.json
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\bin\Debug\netcoreapp3.1\MathLib.runtimeconfig.dev.json
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\bin\Debug\netcoreapp3.1\MathLib.dll
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\bin\Debug\netcoreapp3.1\MathLib.pdb
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.csprojAssemblyReference.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.AssemblyInfoInputs.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.AssemblyInfo.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.csproj.CoreCompileInputs.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.dll
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.pdb
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\MathLib\obj\Debug\netcoreapp3.1\MathLib.genruntimeconfig.cache

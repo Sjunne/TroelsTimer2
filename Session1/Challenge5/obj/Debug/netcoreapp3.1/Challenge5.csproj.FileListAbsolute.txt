@@ -1,0 +1,13 @@
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\bin\Debug\netcoreapp3.1\Challenge5.exe
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\bin\Debug\netcoreapp3.1\Challenge5.deps.json
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\bin\Debug\netcoreapp3.1\Challenge5.runtimeconfig.json
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\bin\Debug\netcoreapp3.1\Challenge5.runtimeconfig.dev.json
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\bin\Debug\netcoreapp3.1\Challenge5.dll
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\bin\Debug\netcoreapp3.1\Challenge5.pdb
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.csprojAssemblyReference.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.AssemblyInfoInputs.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.AssemblyInfo.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.csproj.CoreCompileInputs.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.dll
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.pdb
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge5\obj\Debug\netcoreapp3.1\Challenge5.genruntimeconfig.cache

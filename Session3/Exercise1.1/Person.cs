@@ -1,0 +1,15 @@
+﻿namespace Exercise1
+{
+    public class Person
+    {
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public int age { get; set; }
+        public double height { get; set; }
+        public bool isMarried { get; set; }
+        public char sex { get; set; }
+        public string[] hobbies { get; set; }
+        
+        
+    }
+}
