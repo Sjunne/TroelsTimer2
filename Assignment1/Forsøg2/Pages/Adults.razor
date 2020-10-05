@@ -5,11 +5,22 @@
 
 <h3>Adults</h3>
 <p>
-    Filter by First Name: <input type="text" @oninput="@((arg) => FilterByName(arg))" style="width:150px"/>
+    Search Criteria: <input type="text" @oninput="@((arg) => ExecuteFilter(arg))" style="width:50px"/>
 </p>
-<p>
-    Filter by Minimum Age: <input type="number" @oninput="@((arg) => FilterByAge(arg))" style="width:70px"/>
-</p>
+
+<div class="form-group">
+        Sex:<br/>
+        <select rows="4" @bind="searchValue">
+            <option value="">Select sex...</option>
+            <option value="Age">Age</option>
+            <option value="FirstName">FirstName</option>
+            <option value="LastName">LastName</option>
+            <option value="EyeColour">EyeColour</option>
+            <option value="HairColour">HairColour</option>
+            <option value="Height">Height</option>
+            <option value="Weight">Weight</option>
+        </select>
+    </div>
 
 @if (adultsToShow == null)
 {
@@ -63,6 +74,8 @@ else
 
     private string nameFilter;
     private int minAge;
+
+    private string searchValue = "";
     
     protected override async Task OnInitializedAsync() {
         allAdults = File.getAllAdults();
@@ -75,7 +88,6 @@ else
         {
             nameFilter = changeEventArgs.Value.ToString();
         } catch (Exception e) { }
-        ExecuteFilter();
     }
     
     private void FilterByAge(ChangeEventArgs changeEventArgs)
@@ -85,13 +97,56 @@ else
         {
             minAge = int.Parse(changeEventArgs.Value.ToString());
         } catch (Exception e) { }
-        ExecuteFilter();
     }
 
-    private void ExecuteFilter()
+    private void ExecuteFilter(ChangeEventArgs changeEventArgs)
     {
-        adultsToShow = allAdults.Where(t => 
-            (nameFilter != null && t.FirstName == nameFilter || nameFilter == null) && 
-            (minAge != 0 && t.Age > minAge || minAge == 0)
-            ).ToList();    }
+        nameFilter = changeEventArgs.Value.ToString();
+        try
+        {
+            switch (searchValue)
+            {
+                case "FirstName":
+                    adultsToShow = allAdults.Where(t =>
+                        (nameFilter != null && t.FirstName.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+
+                case "LastName":
+                    adultsToShow = allAdults.Where(t =>
+                        (nameFilter != null && t.LastName.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+
+                case "Age":
+                    adultsToShow = allAdults.Where(t => (nameFilter != null && t.Age == int.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+
+                case "EyeColour":
+                    adultsToShow = allAdults.Where(t =>
+                        (nameFilter != null && t.EyeColor.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+
+                case "HairColour":
+                    adultsToShow = allAdults.Where(t =>
+                        (nameFilter != null && t.HairColor.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+
+                case "Height":
+                    adultsToShow = allAdults.Where(t => (nameFilter != null && t.Height == int.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+
+                case "Weight":
+                    adultsToShow = allAdults.Where(t => (nameFilter != null && t.Weight == float.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                    break;
+            }
+        }
+        catch (FormatException e)
+        {
+            adultsToShow = allAdults;
+        }
+
+
+
+
+    }
+    
 }
