@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Forsøg2.Data;
+using Syncfusion.Blazor;
 
 namespace Forsøg2
 {
@@ -31,7 +32,7 @@ namespace Forsøg2
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<IfileContext, FileAdapter>();
-
+            services.AddSyncfusionBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
