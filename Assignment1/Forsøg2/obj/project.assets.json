@@ -1105,23 +1105,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sjunn\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Mattias Leth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
+      "projectUniqueName": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
       "projectName": "Forsøg2",
-      "projectPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
-      "packagesPath": "C:\\Users\\sjunn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\obj\\",
+      "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
+      "packagesPath": "C:\\Users\\Mattias Leth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sjunn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Mattias Leth\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1166,7 +1162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
