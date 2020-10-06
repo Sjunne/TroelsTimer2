@@ -20,5 +20,10 @@ namespace FileData
         {
             return FileContext.Adults;
         }
+
+        public IList<Family> getAllFamilies()
+        {
+            return FileContext.Families;
+        }
     }
 }

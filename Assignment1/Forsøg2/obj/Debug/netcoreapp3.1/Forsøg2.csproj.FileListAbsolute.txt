@@ -131,3 +131,24 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Syncfusion.PdfExport.Net.dll
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ShowFamilies.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\ShowFamilies.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Forsøg2.StaticWebAssets.xml
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Syncfusion.Blazor.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Syncfusion.ExcelExport.Net.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\bin\Debug\netcoreapp3.1\Syncfusion.PdfExport.Net.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ShowFamilies.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Statistics.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\ShowFamilies.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Statistics.razor.g.cs
