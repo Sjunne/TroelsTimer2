@@ -9,9 +9,9 @@
 </p>
 
 <div class="form-group">
-        Sex:<br/>
+        Search:<br/>
         <select rows="4" @bind="searchValue">
-            <option value="">Select sex...</option>
+            <option value="">Select Search Criteria</option>
             <option value="Age">Age</option>
             <option value="FirstName">FirstName</option>
             <option value="LastName">LastName</option>
@@ -66,7 +66,6 @@ else
         }
         </tbody>
     </table>
-    
 }
 
 @code {
@@ -81,23 +80,6 @@ else
     protected override async Task OnInitializedAsync() {
         allAdults = File.getAllAdults();
         adultsToShow = allAdults;
-    }
-    
-    private void FilterByName(ChangeEventArgs changeEventArgs) {
-        nameFilter = null;
-        try
-        {
-            nameFilter = changeEventArgs.Value.ToString();
-        } catch (Exception e) { }
-    }
-    
-    private void FilterByAge(ChangeEventArgs changeEventArgs)
-    {
-        minAge = 0;
-        try
-        {
-            minAge = int.Parse(changeEventArgs.Value.ToString());
-        } catch (Exception e) { }
     }
 
     private void ExecuteFilter(ChangeEventArgs changeEventArgs)

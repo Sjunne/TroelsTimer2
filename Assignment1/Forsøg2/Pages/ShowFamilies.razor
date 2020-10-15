@@ -1,6 +1,8 @@
 ﻿@page "/ShowFamilies"
 @inject IJSRuntime JsRuntime
 @using FileData
+@using Models
+@using Syncfusion.Blazor.RichTextEditor
 @inject IfileContext File
 <h3>Test123</h3>
 
@@ -17,6 +19,7 @@
       border: none;
       outline: none;
       transition: 0.4s;
+      margin: 5px;
     }
     
     /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -33,35 +36,233 @@
     }
   </style>
 </head>
-<button class="accordion"  @onclick="@(e => Flip(0))">Section 1</button>
-<div class="panel" style="@(show[0]?"display: block;" : "")">
-    <p>Lorem ipsum...</p>
-</div>
 
-<button class="accordion" >Section 2</button>
-<div class="panel" style="display: block">
-    <p>Lorem ipsum...</p>
-</div>
 
-<button class="accordion">Section 3</button>
-<div class="panel">
-    <p>Lorem ipsum...</p>
-</div>
+@if (families == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else if (!families.Any())
+{
+    <p>
+        <em>No Adults exist. Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        </thead>
+        <tbody>
+        @for (int i = 0; i < families.Count; i++)
+        {
+            int copy = i; //out of scope counter thing? 
+            <tr>
+                <td>
+                    <button class="accordion" @onclick="@(e => Flip(copy))">Street: @families[i].StreetName, House Number: @families[i].HouseNumber</button>
+                    <div class="panel" style="@(familiesAcc[copy] ? "display: block;" : "")">
+                        <p>
+                            <button class="accordion" @onclick="@(e => FlipAdults(copy))">Adults</button>
+                            <div class="panel" style="@(adultsAcc[copy] ? "display: block;" : "")">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>FirstName</th>
+                                        <th>LastName</th>
+                                        <th>HairColor</th>
+                                        <th>EyeColor</th>
+                                        <th>Age</th>
+                                        <th>Weight</th>
+                                        <th>Height</th>
+                                        <th>Sex</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @foreach (var item in families[i].Adults)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.FirstName</td>
+                                            <td>@item.LastName</td>
+                                            <td>@item.HairColor</td>
+                                            <td>@item.EyeColor</td>
+                                            <td>@item.Age</td>
+                                            <td>@item.Weight</td>
+                                            <td>@item.Height</td>
+                                            <td>@item.Sex</td>
+                                        </tr>
+                                    }
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button class="accordion" @onclick="@(e => FlipChildren(copy))">Children</button>
+                            <div class="panel" style="@(ChildrenAcc[copy] ? "display: block;" : "")">
+                                @for (int j = 0; j < families[i].Children.Count; j++)
+                                {
+                                    <h3>@families[i].Children[j].FirstName @families[i].Children[j].LastName</h3>
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>HairColor</th>
+                                            <th>EyeColor</th>
+                                            <th>Age</th>
+                                            <th>Weight</th>
+                                            <th>Height</th>
+                                            <th>Sex</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>@families[i].Children[j].HairColor</td>
+                                            <td>@families[i].Children[j].EyeColor</td>
+                                            <td>@families[i].Children[j].Age</td>
+                                            <td>@families[i].Children[j].Weight</td>
+                                            <td>@families[i].Children[j].Height</td>
+                                            <td>@families[i].Children[j].Sex</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <h5>
+                                        <b>Interests</b>
+                                    </h5>
+                                    if (families[i].Children[j].ChildInterests.Count == 0)
+                                    {
+                                        <p>
+                                            <b>None</b>
+                                        </p>
+                                    }
+                                    @for (int k = 0; k < families[i].Children[j].ChildInterests.Count; k++)
+                                    {
+                                        <h6>@families[i].Children[j].ChildInterests[k].InterestId</h6>
+                                    }
+                                    <h5>
+                                        <b>Pets</b>
+                                    </h5>
+                                    if (families[i].Children[j].Pets.Count == 0)
+                                    {
+                                        <p>
+                                            <b>None</b>
+                                        </p>
+                                    }
+                                    @for (int d = 0; d < families[i].Children[j].Pets.Count; d++)
+                                    {
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>Species</th>
+                                                <th>Name</th>
+                                                <th>Age</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>@families[i].Children[j].Pets[d].Species</td>
+                                                <td>@families[i].Children[j].Pets[d].Name</td>
+                                                <td>@families[i].Children[j].Pets[d].Age</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    }
+                                }
+
+                            </div>
+                            <button class="accordion" @onclick="@(e => FlipPets(copy))">Family Pets</button>
+                            <div class="panel" style="@(familyPetsAcc[copy] ? "display: block;" : "")">
+                                @if (families[i].Pets.Count == 0)
+                                {
+                                    <p><b>None</b></p>
+                                }
+                                @for (int b = 0; b < families[i].Pets.Count; b++)
+                                {
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Species</th>
+                                            <th>Name</th>
+                                            <th>Age</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>@families[i].Pets[b].Species</td>
+                                            <td>@families[i].Pets[b].Name</td>
+                                            <td>@families[i].Pets[b].Age</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                }
+                            </div>
+                        </p>
+                    
+                    </div>
+                </td>
+            </tr>
+        }
+        </tbody>
+
+
+    </table>
+}
+
 
 @code {
-    List<bool> show = new List<bool>
+
+    List<bool> familiesAcc = new List<bool>
     {
         new bool(),
     };
-    protected override void OnInitialized()
+
+    List<bool> adultsAcc = new List<bool>
     {
-        base.OnInitialized();
-        
-    }
+        new bool(),
+    };
+
+    List<bool> ChildrenAcc = new List<bool>
+    {
+        new bool(),
+    };
+
+    List<bool> familyPetsAcc = new List<bool>
+    {
+        new bool(),
+    };
+
+    IList<Family> families;
 
     private void Flip(int i)
     {
-        Console.Write("flip");
-        show[i] = !show[i];
+        familiesAcc[i] = !familiesAcc[i];
     }
+
+    protected override Task OnInitializedAsync()
+    {
+        families = File.getAllFamilies();
+        foreach (var item in families)
+        {
+            familiesAcc.Add(new bool());
+            adultsAcc.Add(new bool());
+            ChildrenAcc.Add(new bool());
+            familyPetsAcc.Add(new bool());
+        }
+        return base.OnInitializedAsync();
+    }
+
+    private void FlipAdults(int a)
+    {
+        adultsAcc[a] = !adultsAcc[a];
+    }
+
+    private void FlipChildren(int a)
+    {
+        ChildrenAcc[a] = !ChildrenAcc[a];
+    }
+
+    private void FlipPets(int a)
+    {
+        familyPetsAcc[a] = !familyPetsAcc[a];
+    }
+
 }
