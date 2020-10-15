@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Forsøg2.Data;
+using Models;
+using ModelsAddFamily;
 using Syncfusion.Blazor;
 
 namespace Forsøg2
@@ -32,6 +34,7 @@ namespace Forsøg2
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<IfileContext, FileAdapter>();
+            services.AddSingleton<AddFamilyHolder>();
             services.AddSyncfusionBlazor();
         }
 

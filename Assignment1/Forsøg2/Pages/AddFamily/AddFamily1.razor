@@ -1,0 +1,41 @@
+﻿@page "/AddFamily"
+@using Models
+@using ModelsAddFamily
+@inject AddFamilyHolder AddFamilyHolder
+@inject NavigationManager NavigationManager
+<h1>Add Family</h1>
+<h6>Step 1</h6>
+
+
+<EditForm Model="@family" OnValidSubmit="@SubmitPage1">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="form-group">
+        House Number:<br/>
+        <InputNumber @bind-Value="family.HouseNumber"/>
+    </div>
+    <div class="form-group">
+        Street Name:<br/>
+        <InputText rows="4" @bind-Value="family.StreetName"/>
+    </div>
+    
+    <p class="actions">
+        <button class="btn btn-outline-dark" style="float: right; background-color: limegreen" type="submit">Next</button>
+    </p>
+</EditForm>
+
+@code {
+    private Family family;
+    
+    protected override Task OnInitializedAsync()
+    {
+        family = AddFamilyHolder.family;
+        return base.OnInitializedAsync();
+    }
+
+    private void SubmitPage1()
+    {
+        AddFamilyHolder.family.StreetName = family.StreetName;
+        NavigationManager.NavigateTo("/AddFamily2");
+    }
+}

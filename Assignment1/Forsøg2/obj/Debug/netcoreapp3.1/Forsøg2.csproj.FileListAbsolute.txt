@@ -152,3 +152,11 @@ C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcore
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Statistics.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\ShowFamilies.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Statistics.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily1.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily1.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily2.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily2.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily3.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily4.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily3.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily4.razor.g.cs
