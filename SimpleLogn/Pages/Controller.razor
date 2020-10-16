@@ -1,0 +1,34 @@
+﻿@using SimpleLogn.ViewModels
+<h3>Controller</h3>
+<h1>Det her er Controlleren</h1>
+
+<button class="btn btn-primary" @onclick="viewmodel.Metode1">metode1</button>
+<button class="btn btn-primary" @onclick="viewmodel.Metode2">metode2</button>
+
+@code {
+    private ViewModel viewmodel;
+    
+    static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges)
+    {
+
+        int applesReturn = 0;
+        int orangesReturn = 0;
+
+        for (int i = 0; i < apples.Length; i++)
+        {
+            if (apples[i] + a <= s || apples[i] + a > t)
+                applesReturn++;
+        }
+
+        for (int i = 0; i < oranges.Length; i++)
+        {
+            if (oranges[i] + b > t || oranges[i] + b < s)
+            {
+                orangesReturn++;
+            }
+        }
+
+        Console.WriteLine(applesReturn);
+        Console.WriteLine(orangesReturn);
+    }
+}

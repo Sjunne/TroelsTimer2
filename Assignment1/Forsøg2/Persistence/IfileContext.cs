@@ -8,5 +8,6 @@ namespace FileData
         void AddAdult(Adult adult);
 
         IList<Adult> getAllAdults();
+        IList<Family> getAllFamilies();
     }
 }

@@ -1,0 +1,155 @@
+﻿@page "/AddFamily2"
+@using Models
+@using Microsoft.AspNetCore.Mvc.ModelBinding
+@using ModelsAddFamily
+@inject AddFamilyHolder AddFamilyHolder
+@inject NavigationManager NavigationManager
+<head>
+    <style>
+        .test123
+        {
+        float: left;
+        margin-right: 20px;
+        }
+    </style>
+    </head>
+<h1>Add A Child</h1>
+<h6>Step 2</h6>
+
+<div style="height: 700px"> 
+<div class="test123">
+
+    <EditForm Model="@child">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        <div class="form-group">
+            User Id:<br/>
+            <InputNumber @bind-Value="child.Id"/>
+        </div>
+        <div class="form-group">
+            First Name:<br/>
+            <InputText rows="4" @bind-Value="child.FirstName"/>
+        </div>
+        <div class="form-group">
+            Last Name:<br/>
+            <InputText rows="4" @bind-Value="child.LastName"/>
+        </div>
+        <div class="form-group">
+            Weight:<br/>
+            <InputNumber rows="4" @bind-Value="child.Weight"/>
+        </div>
+        <div class="form-group">
+            HairColor:<br/>
+            <InputText rows="4" @bind-Value="child.HairColor"/>
+        </div>
+        <div class="form-group">
+            Eye Color:<br/>
+            <InputText rows="4" @bind-Value="child.EyeColor"/>
+        </div>
+        <div class="form-group">
+            Age:<br/>
+            <InputNumber rows="4" @bind-Value="child.Age"/>
+        </div>
+        <div class="form-group">
+            Height:<br/>
+            <InputNumber rows="4" @bind-Value="child.Height"/>
+        </div>
+        <div class="form-group">
+            Sex:<br/>
+            <InputSelect rows="4" @bind-Value="child.Sex">
+                <option value="">Select sex...</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </InputSelect>
+        </div>
+
+    
+    </EditForm>
+</div>
+    <div class="test123">
+        <EditForm Model="@pet" OnValidSubmit="@AddAnotherPet">
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+            <div class="form-group">
+                Age:<br/>
+                <InputNumber @bind-Value="pet.Age"/>
+            </div>
+            <div class="form-group">
+                Name:<br/>
+                <InputText rows="4" @bind-Value="pet.Name"/>
+            </div>
+            <div class="form-group">
+                Species:<br/>
+                <InputText rows="4" @bind-Value="pet.Species"/>
+            </div>
+
+            <button class="btn btn-outline-dark" type="submit">Add</button>
+                        <p style="font-size: 70%;"> <i>Can add multiple</i></p>
+
+        </EditForm>
+    </div>
+    <div class="test1234">
+        <EditForm Model="@childInterest" OnValidSubmit="@AddAnotherInterest">
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+            <div class="form-group">
+                Name:<br/>
+                <InputText rows="4" @bind-Value="childInterest.InterestId"/>
+            </div>
+            <button class="btn btn-outline-dark" type="submit">Add</button>
+            <p style="font-size: 70%;"> <i>Can add multiple</i></p>
+        </EditForm>
+    </div>
+</div>
+
+<p class="actions">
+    <button style="float: right; background-color: limegreen" @onclick="NextPage" class="btn btn-outline-dark">Next</button>
+    <button style="float: right; margin-right: 10px" @onclick="AddAnotherChild" class="btn btn-outline-dark">Add Another Child</button>
+</p>
+
+
+@code {
+    private Child child;
+    private Pet pet;
+    private ChildInterest childInterest;
+
+    protected override Task OnInitializedAsync()
+    {
+        child = new Child();
+        pet = new Pet();
+        childInterest = new ChildInterest();
+        return base.OnInitializedAsync();
+    }
+
+
+    private void SubmitPage2()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void AddAnotherPet()
+    {
+        child.Pets.Add(pet);
+        pet = new Pet();
+    }
+
+    private void AddAnotherInterest()
+    {
+        child.ChildInterests.Add(childInterest);
+        childInterest = new ChildInterest();
+    }
+
+
+    private void AddAnotherChild()
+    {
+        AddFamilyHolder.family.Children.Add(child);
+        child = new Child();
+    }
+
+    private void NextPage()
+    {
+        AddFamilyHolder.family.Children.Add(child);
+        NavigationManager.NavigateTo("/AddFamily3");
+    }
+
+}
