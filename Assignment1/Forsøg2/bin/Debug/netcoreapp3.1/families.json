@@ -30,6 +30,7 @@
     ],
     "Children": [
       {
+        "Id": 0,
         "ChildInterests": [
           {
             "ChildId": 0,
@@ -49,7 +50,6 @@
           }
         ],
         "Pets": [],
-        "Id": 0,
         "FirstName": "Honesty",
         "LastName": "Schneider",
         "HairColor": "Black",
@@ -60,6 +60,7 @@
         "Sex": "F"
       },
       {
+        "Id": 1,
         "ChildInterests": [
           {
             "ChildId": 1,
@@ -67,7 +68,6 @@
           }
         ],
         "Pets": [],
-        "Id": 1,
         "FirstName": "Carmelo",
         "LastName": "Schneider",
         "HairColor": "Brown",
@@ -99,6 +99,7 @@
     ],
     "Children": [
       {
+        "Id": 2,
         "ChildInterests": [
           {
             "ChildId": 2,
@@ -118,7 +119,6 @@
           }
         ],
         "Pets": [],
-        "Id": 2,
         "FirstName": "Eduardo",
         "LastName": "Bernard",
         "HairColor": "Black",
@@ -129,6 +129,7 @@
         "Sex": "M"
       },
       {
+        "Id": 3,
         "ChildInterests": [
           {
             "ChildId": 3,
@@ -140,7 +141,6 @@
           }
         ],
         "Pets": [],
-        "Id": 3,
         "FirstName": "Nyjah",
         "LastName": "Bernard",
         "HairColor": "Black",
@@ -216,6 +216,7 @@
     ],
     "Children": [
       {
+        "Id": 4,
         "ChildInterests": [
           {
             "ChildId": 4,
@@ -223,7 +224,6 @@
           }
         ],
         "Pets": [],
-        "Id": 4,
         "FirstName": "Reyes",
         "LastName": "Jackson",
         "HairColor": "Blond",
@@ -234,6 +234,7 @@
         "Sex": "M"
       },
       {
+        "Id": 5,
         "ChildInterests": [
           {
             "ChildId": 5,
@@ -257,7 +258,6 @@
           }
         ],
         "Pets": [],
-        "Id": 5,
         "FirstName": "Justus",
         "LastName": "Jackson",
         "HairColor": "Black",
@@ -268,6 +268,7 @@
         "Sex": "M"
       },
       {
+        "Id": 6,
         "ChildInterests": [
           {
             "ChildId": 6,
@@ -279,7 +280,6 @@
           }
         ],
         "Pets": [],
-        "Id": 6,
         "FirstName": "Zyaire",
         "LastName": "Jackson",
         "HairColor": "Blond",
@@ -290,6 +290,7 @@
         "Sex": "M"
       },
       {
+        "Id": 7,
         "ChildInterests": [
           {
             "ChildId": 7,
@@ -301,7 +302,6 @@
           }
         ],
         "Pets": [],
-        "Id": 7,
         "FirstName": "Anaiyah",
         "LastName": "Jackson",
         "HairColor": "Black",
@@ -333,6 +333,7 @@
     ],
     "Children": [
       {
+        "Id": 8,
         "ChildInterests": [
           {
             "ChildId": 8,
@@ -348,7 +349,6 @@
           }
         ],
         "Pets": [],
-        "Id": 8,
         "FirstName": "Aydin",
         "LastName": "Matthews",
         "HairColor": "Black",
@@ -359,6 +359,7 @@
         "Sex": "M"
       },
       {
+        "Id": 9,
         "ChildInterests": [
           {
             "ChildId": 9,
@@ -378,7 +379,6 @@
           }
         ],
         "Pets": [],
-        "Id": 9,
         "FirstName": "Angel",
         "LastName": "Matthews",
         "HairColor": "Black",
@@ -422,6 +422,7 @@
     ],
     "Children": [
       {
+        "Id": 10,
         "ChildInterests": [
           {
             "ChildId": 10,
@@ -433,7 +434,6 @@
           }
         ],
         "Pets": [],
-        "Id": 10,
         "FirstName": "Aylen",
         "LastName": "Scott",
         "HairColor": "Black",
@@ -444,6 +444,7 @@
         "Sex": "F"
       },
       {
+        "Id": 11,
         "ChildInterests": [
           {
             "ChildId": 11,
@@ -455,7 +456,6 @@
           }
         ],
         "Pets": [],
-        "Id": 11,
         "FirstName": "Cory",
         "LastName": "Scott",
         "HairColor": "Black",
@@ -506,6 +506,7 @@
     ],
     "Children": [
       {
+        "Id": 12,
         "ChildInterests": [
           {
             "ChildId": 12,
@@ -521,7 +522,6 @@
           }
         ],
         "Pets": [],
-        "Id": 12,
         "FirstName": "Roya",
         "LastName": "Nielsen",
         "HairColor": "Black",
@@ -560,6 +560,7 @@
     ],
     "Children": [
       {
+        "Id": 13,
         "ChildInterests": [
           {
             "ChildId": 13,
@@ -582,7 +583,6 @@
             "Age": 2
           }
         ],
-        "Id": 13,
         "FirstName": "Madalynn",
         "LastName": "Melton",
         "HairColor": "Black",
@@ -626,6 +626,7 @@
     ],
     "Children": [
       {
+        "Id": 14,
         "ChildInterests": [
           {
             "ChildId": 14,
@@ -633,7 +634,6 @@
           }
         ],
         "Pets": [],
-        "Id": 14,
         "FirstName": "Dawson",
         "LastName": "May",
         "HairColor": "Black",
@@ -644,6 +644,7 @@
         "Sex": "M"
       },
       {
+        "Id": 15,
         "ChildInterests": [
           {
             "ChildId": 15,
@@ -663,7 +664,6 @@
           }
         ],
         "Pets": [],
-        "Id": 15,
         "FirstName": "Skyler",
         "LastName": "May",
         "HairColor": "Brown",
@@ -695,6 +695,7 @@
     ],
     "Children": [
       {
+        "Id": 16,
         "ChildInterests": [
           {
             "ChildId": 16,
@@ -709,7 +710,6 @@
             "Age": 4
           }
         ],
-        "Id": 16,
         "FirstName": "Caesar",
         "LastName": "Villanueva",
         "HairColor": "White",
@@ -720,6 +720,7 @@
         "Sex": "M"
       },
       {
+        "Id": 17,
         "ChildInterests": [
           {
             "ChildId": 17,
@@ -731,7 +732,6 @@
           }
         ],
         "Pets": [],
-        "Id": 17,
         "FirstName": "Collette",
         "LastName": "Villanueva",
         "HairColor": "Black",
@@ -775,6 +775,7 @@
     ],
     "Children": [
       {
+        "Id": 18,
         "ChildInterests": [
           {
             "ChildId": 18,
@@ -797,7 +798,6 @@
             "Age": 0
           }
         ],
-        "Id": 18,
         "FirstName": "Kaily",
         "LastName": "Givens",
         "HairColor": "Black",
@@ -808,6 +808,7 @@
         "Sex": "F"
       },
       {
+        "Id": 19,
         "ChildInterests": [
           {
             "ChildId": 19,
@@ -839,7 +840,6 @@
           }
         ],
         "Pets": [],
-        "Id": 19,
         "FirstName": "Korra",
         "LastName": "Givens",
         "HairColor": "Black",
@@ -890,6 +890,7 @@
     ],
     "Children": [
       {
+        "Id": 20,
         "ChildInterests": [
           {
             "ChildId": 20,
@@ -901,7 +902,6 @@
           }
         ],
         "Pets": [],
-        "Id": 20,
         "FirstName": "Jaden",
         "LastName": "Solis",
         "HairColor": "Black",
@@ -912,6 +912,7 @@
         "Sex": "M"
       },
       {
+        "Id": 21,
         "ChildInterests": [
           {
             "ChildId": 21,
@@ -927,7 +928,6 @@
           }
         ],
         "Pets": [],
-        "Id": 21,
         "FirstName": "Erik",
         "LastName": "Solis",
         "HairColor": "Black",
@@ -938,6 +938,7 @@
         "Sex": "M"
       },
       {
+        "Id": 22,
         "ChildInterests": [
           {
             "ChildId": 22,
@@ -961,7 +962,6 @@
           }
         ],
         "Pets": [],
-        "Id": 22,
         "FirstName": "Jaxen",
         "LastName": "Solis",
         "HairColor": "Black",
@@ -972,6 +972,7 @@
         "Sex": "M"
       },
       {
+        "Id": 23,
         "ChildInterests": [
           {
             "ChildId": 23,
@@ -987,7 +988,6 @@
           }
         ],
         "Pets": [],
-        "Id": 23,
         "FirstName": "Jedidiah",
         "LastName": "Solis",
         "HairColor": "Black",
@@ -998,6 +998,7 @@
         "Sex": "M"
       },
       {
+        "Id": 24,
         "ChildInterests": [
           {
             "ChildId": 24,
@@ -1005,7 +1006,6 @@
           }
         ],
         "Pets": [],
-        "Id": 24,
         "FirstName": "Miliana",
         "LastName": "Solis",
         "HairColor": "Black",
@@ -1016,6 +1016,7 @@
         "Sex": "F"
       },
       {
+        "Id": 25,
         "ChildInterests": [
           {
             "ChildId": 25,
@@ -1023,7 +1024,6 @@
           }
         ],
         "Pets": [],
-        "Id": 25,
         "FirstName": "Bernardo",
         "LastName": "Solis",
         "HairColor": "Brown",
@@ -1055,6 +1055,7 @@
     ],
     "Children": [
       {
+        "Id": 26,
         "ChildInterests": [
           {
             "ChildId": 26,
@@ -1062,7 +1063,6 @@
           }
         ],
         "Pets": [],
-        "Id": 26,
         "FirstName": "Brandon",
         "LastName": "Crane",
         "HairColor": "Black",
@@ -1073,6 +1073,7 @@
         "Sex": "M"
       },
       {
+        "Id": 27,
         "ChildInterests": [
           {
             "ChildId": 27,
@@ -1084,7 +1085,6 @@
           }
         ],
         "Pets": [],
-        "Id": 27,
         "FirstName": "Yahir",
         "LastName": "Crane",
         "HairColor": "Black",
@@ -1095,6 +1095,7 @@
         "Sex": "M"
       },
       {
+        "Id": 28,
         "ChildInterests": [
           {
             "ChildId": 28,
@@ -1110,7 +1111,6 @@
           }
         ],
         "Pets": [],
-        "Id": 28,
         "FirstName": "Berkeley",
         "LastName": "Crane",
         "HairColor": "Black",
@@ -1154,6 +1154,7 @@
     ],
     "Children": [
       {
+        "Id": 29,
         "ChildInterests": [
           {
             "ChildId": 29,
@@ -1161,7 +1162,6 @@
           }
         ],
         "Pets": [],
-        "Id": 29,
         "FirstName": "Delaney",
         "LastName": "Krause",
         "HairColor": "Black",
@@ -1172,6 +1172,7 @@
         "Sex": "F"
       },
       {
+        "Id": 30,
         "ChildInterests": [
           {
             "ChildId": 30,
@@ -1194,7 +1195,6 @@
             "Age": 0
           }
         ],
-        "Id": 30,
         "FirstName": "Odin",
         "LastName": "Krause",
         "HairColor": "Black",
@@ -1238,6 +1238,7 @@
     ],
     "Children": [
       {
+        "Id": 31,
         "ChildInterests": [
           {
             "ChildId": 31,
@@ -1257,7 +1258,6 @@
           }
         ],
         "Pets": [],
-        "Id": 31,
         "FirstName": "Octavio",
         "LastName": "Kincaid",
         "HairColor": "Blue",
@@ -1268,6 +1268,7 @@
         "Sex": "M"
       },
       {
+        "Id": 32,
         "ChildInterests": [
           {
             "ChildId": 32,
@@ -1290,7 +1291,6 @@
             "Age": 1
           }
         ],
-        "Id": 32,
         "FirstName": "Finnick",
         "LastName": "Kincaid",
         "HairColor": "Black",
@@ -1301,6 +1301,7 @@
         "Sex": "M"
       },
       {
+        "Id": 33,
         "ChildInterests": [
           {
             "ChildId": 33,
@@ -1312,7 +1313,6 @@
           }
         ],
         "Pets": [],
-        "Id": 33,
         "FirstName": "Sonia",
         "LastName": "Kincaid",
         "HairColor": "Brown",
@@ -1356,6 +1356,7 @@
     ],
     "Children": [
       {
+        "Id": 34,
         "ChildInterests": [
           {
             "ChildId": 34,
@@ -1375,7 +1376,6 @@
           }
         ],
         "Pets": [],
-        "Id": 34,
         "FirstName": "Malani",
         "LastName": "King",
         "HairColor": "Brown",
@@ -1419,6 +1419,7 @@
     ],
     "Children": [
       {
+        "Id": 35,
         "ChildInterests": [
           {
             "ChildId": 35,
@@ -1426,7 +1427,6 @@
           }
         ],
         "Pets": [],
-        "Id": 35,
         "FirstName": "Madeline",
         "LastName": "Mooney",
         "HairColor": "Black",
@@ -1437,6 +1437,7 @@
         "Sex": "F"
       },
       {
+        "Id": 36,
         "ChildInterests": [
           {
             "ChildId": 36,
@@ -1467,7 +1468,6 @@
             "Age": 3
           }
         ],
-        "Id": 36,
         "FirstName": "Lisette",
         "LastName": "Mooney",
         "HairColor": "Black",
@@ -1478,6 +1478,7 @@
         "Sex": "F"
       },
       {
+        "Id": 37,
         "ChildInterests": [
           {
             "ChildId": 37,
@@ -1489,7 +1490,6 @@
           }
         ],
         "Pets": [],
-        "Id": 37,
         "FirstName": "Eloisa",
         "LastName": "Mooney",
         "HairColor": "Black",
@@ -1533,6 +1533,7 @@
     ],
     "Children": [
       {
+        "Id": 38,
         "ChildInterests": [
           {
             "ChildId": 38,
@@ -1547,7 +1548,6 @@
             "Age": 4
           }
         ],
-        "Id": 38,
         "FirstName": "Ashly",
         "LastName": "Fisher",
         "HairColor": "Black",
@@ -1558,6 +1558,7 @@
         "Sex": "F"
       },
       {
+        "Id": 39,
         "ChildInterests": [
           {
             "ChildId": 39,
@@ -1569,7 +1570,6 @@
           }
         ],
         "Pets": [],
-        "Id": 39,
         "FirstName": "Keily",
         "LastName": "Fisher",
         "HairColor": "Black",
@@ -1580,6 +1580,7 @@
         "Sex": "F"
       },
       {
+        "Id": 40,
         "ChildInterests": [
           {
             "ChildId": 40,
@@ -1603,7 +1604,6 @@
           }
         ],
         "Pets": [],
-        "Id": 40,
         "FirstName": "Melannie",
         "LastName": "Fisher",
         "HairColor": "Black",
@@ -1654,6 +1654,7 @@
     ],
     "Children": [
       {
+        "Id": 41,
         "ChildInterests": [
           {
             "ChildId": 41,
@@ -1665,7 +1666,6 @@
           }
         ],
         "Pets": [],
-        "Id": 41,
         "FirstName": "Eesa",
         "LastName": "Sosa",
         "HairColor": "Black",
@@ -1676,6 +1676,7 @@
         "Sex": "M"
       },
       {
+        "Id": 42,
         "ChildInterests": [
           {
             "ChildId": 42,
@@ -1691,7 +1692,6 @@
           }
         ],
         "Pets": [],
-        "Id": 42,
         "FirstName": "Philip",
         "LastName": "Sosa",
         "HairColor": "Brown",
@@ -1702,6 +1702,7 @@
         "Sex": "M"
       },
       {
+        "Id": 43,
         "ChildInterests": [
           {
             "ChildId": 43,
@@ -1721,7 +1722,6 @@
           }
         ],
         "Pets": [],
-        "Id": 43,
         "FirstName": "Alexandria",
         "LastName": "Sosa",
         "HairColor": "Leverpostej",
@@ -1753,6 +1753,7 @@
     ],
     "Children": [
       {
+        "Id": 44,
         "ChildInterests": [
           {
             "ChildId": 44,
@@ -1764,7 +1765,6 @@
           }
         ],
         "Pets": [],
-        "Id": 44,
         "FirstName": "Eden",
         "LastName": "Bush",
         "HairColor": "Black",
@@ -1775,6 +1775,7 @@
         "Sex": "M"
       },
       {
+        "Id": 45,
         "ChildInterests": [
           {
             "ChildId": 45,
@@ -1786,7 +1787,6 @@
           }
         ],
         "Pets": [],
-        "Id": 45,
         "FirstName": "Talon",
         "LastName": "Bush",
         "HairColor": "Black",
@@ -1797,6 +1797,7 @@
         "Sex": "M"
       },
       {
+        "Id": 46,
         "ChildInterests": [
           {
             "ChildId": 46,
@@ -1812,7 +1813,6 @@
           }
         ],
         "Pets": [],
-        "Id": 46,
         "FirstName": "Karoline",
         "LastName": "Bush",
         "HairColor": "Red",
@@ -1856,6 +1856,7 @@
     ],
     "Children": [
       {
+        "Id": 47,
         "ChildInterests": [
           {
             "ChildId": 47,
@@ -1863,7 +1864,6 @@
           }
         ],
         "Pets": [],
-        "Id": 47,
         "FirstName": "Ramiro",
         "LastName": "Hurd",
         "HairColor": "Black",
@@ -1874,6 +1874,7 @@
         "Sex": "M"
       },
       {
+        "Id": 48,
         "ChildInterests": [
           {
             "ChildId": 48,
@@ -1904,7 +1905,6 @@
             "Age": 4
           }
         ],
-        "Id": 48,
         "FirstName": "Elvin",
         "LastName": "Hurd",
         "HairColor": "Black",
@@ -1936,6 +1936,7 @@
     ],
     "Children": [
       {
+        "Id": 49,
         "ChildInterests": [
           {
             "ChildId": 49,
@@ -1958,7 +1959,6 @@
             "Age": 1
           }
         ],
-        "Id": 49,
         "FirstName": "Harley",
         "LastName": "Travis",
         "HairColor": "Brown",
@@ -1969,6 +1969,7 @@
         "Sex": "F"
       },
       {
+        "Id": 50,
         "ChildInterests": [
           {
             "ChildId": 50,
@@ -1980,7 +1981,6 @@
           }
         ],
         "Pets": [],
-        "Id": 50,
         "FirstName": "Maci",
         "LastName": "Travis",
         "HairColor": "Black",
@@ -1991,6 +1991,7 @@
         "Sex": "F"
       },
       {
+        "Id": 51,
         "ChildInterests": [
           {
             "ChildId": 51,
@@ -2006,7 +2007,6 @@
           }
         ],
         "Pets": [],
-        "Id": 51,
         "FirstName": "Kya",
         "LastName": "Travis",
         "HairColor": "Brown",
@@ -2017,6 +2017,7 @@
         "Sex": "F"
       },
       {
+        "Id": 52,
         "ChildInterests": [
           {
             "ChildId": 52,
@@ -2043,7 +2044,6 @@
             "Age": 1
           }
         ],
-        "Id": 52,
         "FirstName": "Adalynn",
         "LastName": "Travis",
         "HairColor": "Black",
@@ -2054,6 +2054,7 @@
         "Sex": "F"
       },
       {
+        "Id": 53,
         "ChildInterests": [
           {
             "ChildId": 53,
@@ -2065,7 +2066,6 @@
           }
         ],
         "Pets": [],
-        "Id": 53,
         "FirstName": "Marvin",
         "LastName": "Travis",
         "HairColor": "Black",
@@ -2116,6 +2116,7 @@
     ],
     "Children": [
       {
+        "Id": 54,
         "ChildInterests": [
           {
             "ChildId": 54,
@@ -2143,7 +2144,6 @@
           }
         ],
         "Pets": [],
-        "Id": 54,
         "FirstName": "Marcos",
         "LastName": "Winters",
         "HairColor": "Black",
@@ -2154,6 +2154,7 @@
         "Sex": "M"
       },
       {
+        "Id": 55,
         "ChildInterests": [
           {
             "ChildId": 55,
@@ -2169,7 +2170,6 @@
           }
         ],
         "Pets": [],
-        "Id": 55,
         "FirstName": "Ivaan",
         "LastName": "Winters",
         "HairColor": "Black",
@@ -2180,6 +2180,7 @@
         "Sex": "M"
       },
       {
+        "Id": 56,
         "ChildInterests": [
           {
             "ChildId": 56,
@@ -2195,7 +2196,6 @@
           }
         ],
         "Pets": [],
-        "Id": 56,
         "FirstName": "Alyson",
         "LastName": "Winters",
         "HairColor": "White",
@@ -2239,6 +2239,7 @@
     ],
     "Children": [
       {
+        "Id": 57,
         "ChildInterests": [
           {
             "ChildId": 57,
@@ -2266,7 +2267,6 @@
           }
         ],
         "Pets": [],
-        "Id": 57,
         "FirstName": "Isla",
         "LastName": "Newton",
         "HairColor": "Black",
@@ -2277,6 +2277,7 @@
         "Sex": "F"
       },
       {
+        "Id": 58,
         "ChildInterests": [
           {
             "ChildId": 58,
@@ -2291,7 +2292,6 @@
             "Age": 0
           }
         ],
-        "Id": 58,
         "FirstName": "Dalilah",
         "LastName": "Newton",
         "HairColor": "Blond",
@@ -2302,6 +2302,7 @@
         "Sex": "F"
       },
       {
+        "Id": 59,
         "ChildInterests": [
           {
             "ChildId": 59,
@@ -2313,7 +2314,6 @@
           }
         ],
         "Pets": [],
-        "Id": 59,
         "FirstName": "Jayden",
         "LastName": "Newton",
         "HairColor": "Black",
@@ -2364,6 +2364,7 @@
     ],
     "Children": [
       {
+        "Id": 60,
         "ChildInterests": [
           {
             "ChildId": 60,
@@ -2383,7 +2384,6 @@
           }
         ],
         "Pets": [],
-        "Id": 60,
         "FirstName": "Renata",
         "LastName": "Montgomery",
         "HairColor": "Blond",
@@ -2394,6 +2394,7 @@
         "Sex": "F"
       },
       {
+        "Id": 61,
         "ChildInterests": [
           {
             "ChildId": 61,
@@ -2413,7 +2414,6 @@
           }
         ],
         "Pets": [],
-        "Id": 61,
         "FirstName": "Ren",
         "LastName": "Montgomery",
         "HairColor": "Blond",
@@ -2430,6 +2430,69 @@
         "Species": "Cat",
         "Name": "Rock",
         "Age": 8
+      }
+    ]
+  },
+  {
+    "StreetName": "Engsvinget",
+    "HouseNumber": 3,
+    "Adults": [
+      {
+        "JobTitle": "asd",
+        "Id": 0,
+        "FirstName": "Mona",
+        "LastName": "Leth",
+        "HairColor": "Brown",
+        "EyeColor": "Brown",
+        "Age": 123,
+        "Weight": 123,
+        "Height": 123,
+        "Sex": "Female"
+      }
+    ],
+    "Children": [
+      {
+        "Id": 19,
+        "ChildInterests": [
+          {
+            "ChildId": 0,
+            "InterestId": "gaming"
+          },
+          {
+            "ChildId": 0,
+            "InterestId": "PokeGo"
+          }
+        ],
+        "Pets": [
+          {
+            "Id": 0,
+            "Species": "Hund",
+            "Name": "Basse",
+            "Age": 12
+          },
+          {
+            "Id": 0,
+            "Species": "Cat",
+            "Name": "Tiger",
+            "Age": 8
+          }
+        ],
+        "FirstName": "Mattias",
+        "LastName": "Leth",
+        "HairColor": "Brown",
+        "EyeColor": "Brown",
+        "Age": 123,
+        "Weight": 105,
+        "Height": 123,
+        "Sex": "Female"
+      }
+    ],
+    "Pets": [
+      {
+        "Id": 0,
+        "Species": "123",
+        "Name": "Tys",
+        "Age": 1
       }
     ]
   }

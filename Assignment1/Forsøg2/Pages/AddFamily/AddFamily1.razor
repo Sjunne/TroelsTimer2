@@ -1,10 +1,13 @@
 ﻿@page "/AddFamily"
 @using Models
 @using ModelsAddFamily
+@using global::Models
+@using System.Security.Claims
 @inject AddFamilyHolder AddFamilyHolder
 @inject NavigationManager NavigationManager
+@attribute [Authorize(Policy = "SecurityLevel4")]
 <h1>Add Family</h1>
-<h6>Step 1</h6>
+<h6>Step 1/4</h6>
 
 
 <EditForm Model="@family" OnValidSubmit="@SubmitPage1">

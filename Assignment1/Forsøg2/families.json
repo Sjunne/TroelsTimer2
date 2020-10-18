@@ -2432,5 +2432,109 @@
         "Age": 8
       }
     ]
+  },
+  {
+    "StreetName": "Engsvinget",
+    "HouseNumber": 3,
+    "Adults": [
+      {
+        "JobTitle": "asd",
+        "Id": 0,
+        "FirstName": "Mona",
+        "LastName": "Leth",
+        "HairColor": "Brown",
+        "EyeColor": "Brown",
+        "Age": 123,
+        "Weight": 123,
+        "Height": 123,
+        "Sex": "Female"
+      }
+    ],
+    "Children": [
+      {
+        "ChildInterests": [
+          {
+            "ChildId": 0,
+            "InterestId": "gaming"
+          },
+          {
+            "ChildId": 0,
+            "InterestId": "PokeGo"
+          }
+        ],
+        "Pets": [
+          {
+            "Id": 0,
+            "Species": "Hund",
+            "Name": "Basse",
+            "Age": 12
+          },
+          {
+            "Id": 0,
+            "Species": "Cat",
+            "Name": "Tiger",
+            "Age": 8
+          }
+        ],
+        "Id": 19,
+        "FirstName": "Mattias",
+        "LastName": "Leth",
+        "HairColor": "Brown",
+        "EyeColor": "Brown",
+        "Age": 123,
+        "Weight": 105,
+        "Height": 123,
+        "Sex": "Female"
+      }
+    ],
+    "Pets": [
+      {
+        "Id": 0,
+        "Species": "123",
+        "Name": "Tys",
+        "Age": 1
+      }
+    ]
+  },
+  {
+    "StreetName": "Viavej",
+    "HouseNumber": 1,
+    "Adults": [
+      {
+        "JobTitle": "123",
+        "Id": 0,
+        "FirstName": "Mattias",
+        "LastName": "Leth",
+        "HairColor": "Brown",
+        "EyeColor": "Brown",
+        "Age": 123,
+        "Weight": 123,
+        "Height": 123,
+        "Sex": "Male"
+      }
+    ],
+    "Children": [
+      {
+        "ChildInterests": [],
+        "Pets": [],
+        "Id": 0,
+        "FirstName": null,
+        "LastName": null,
+        "HairColor": "",
+        "EyeColor": null,
+        "Age": 0,
+        "Weight": 0,
+        "Height": 0,
+        "Sex": null
+      }
+    ],
+    "Pets": [
+      {
+        "Id": 0,
+        "Species": "Hund",
+        "Name": "Basse",
+        "Age": 10
+      }
+    ]
   }
 ]

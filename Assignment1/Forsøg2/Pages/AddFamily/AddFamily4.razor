@@ -1,11 +1,53 @@
 ﻿@page "/AddFamily4"
 @using ModelsAddFamily
+@using Models
+@using FileData
 @inject AddFamilyHolder AddFamilyHolder
 @inject NavigationManager NavigationManager
-<h3>AddFamily4</h3>
+@inject IfileContext File
 
+<h3>Family pets</h3>
+<h6>step 4/4</h6>
+<EditForm Model="@pet" OnValidSubmit="@AddAnotherPet">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="form-group">
+        Age:<br/>
+        <InputNumber @bind-Value="pet.Age"/>
+    </div>
+    <div class="form-group">
+        Name:<br/>
+        <InputText rows="4" @bind-Value="pet.Name"/>
+    </div>
+    <div class="form-group">
+        Species:<br/>
+        <InputText rows="4" @bind-Value="pet.Species"/>
+    </div>
 
+    <button class="btn btn-outline-dark" type="submit">Add</button>
+    <p style="font-size: 70%;">
+        <i>Can add multiple</i>
+    </p>
+</EditForm>
+<p class="actions">
+    <button style="float: right; background-color: limegreen" @onclick="NextPage" class="btn btn-outline-dark">Next</button>
+</p>
 
 @code {
-    
+    private Pet pet = new Pet();
+
+
+    private void AddAnotherPet()
+    {
+        AddFamilyHolder.family.Pets.Add(pet);
+        pet = new Pet();
+    }
+
+    private void NextPage()
+    {
+        AddFamilyHolder.family.Pets.Add(pet);
+        pet = new Pet();
+        File.AddFamily(AddFamilyHolder.family);
+        NavigationManager.NavigateTo("/ShowFamilies");
+    }
 }

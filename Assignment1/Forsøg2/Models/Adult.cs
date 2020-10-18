@@ -1,6 +1,7 @@
 using System.Text.Json;
+using Models;
 
-namespace Models {
+namespace Forsøg2.Models {
 public class Adult : Person {
     public string JobTitle { get; set; }
 

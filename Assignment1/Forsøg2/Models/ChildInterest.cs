@@ -1,6 +1,7 @@
 using System.Text.Json.Serialization;
+using Models;
 
-namespace Models {
+namespace Forsøg2.Models {
 public class ChildInterest {
     public int ChildId { get; set; }
     [JsonIgnore]

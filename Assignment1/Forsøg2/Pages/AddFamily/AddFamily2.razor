@@ -12,64 +12,66 @@
         margin-right: 20px;
         }
     </style>
-    </head>
+</head>
 <h1>Add A Child</h1>
-<h6>Step 2</h6>
+<h6>Step 2/4</h6>
 
-<div style="height: 700px"> 
-<div class="test123">
+<div style="height: 700px">
+    <div class="test123">
 
-    <EditForm Model="@child">
-        <DataAnnotationsValidator/>
-        <ValidationSummary/>
-        <div class="form-group">
-            User Id:<br/>
-            <InputNumber @bind-Value="child.Id"/>
-        </div>
-        <div class="form-group">
-            First Name:<br/>
-            <InputText rows="4" @bind-Value="child.FirstName"/>
-        </div>
-        <div class="form-group">
-            Last Name:<br/>
-            <InputText rows="4" @bind-Value="child.LastName"/>
-        </div>
-        <div class="form-group">
-            Weight:<br/>
-            <InputNumber rows="4" @bind-Value="child.Weight"/>
-        </div>
-        <div class="form-group">
-            HairColor:<br/>
-            <InputText rows="4" @bind-Value="child.HairColor"/>
-        </div>
-        <div class="form-group">
-            Eye Color:<br/>
-            <InputText rows="4" @bind-Value="child.EyeColor"/>
-        </div>
-        <div class="form-group">
-            Age:<br/>
-            <InputNumber rows="4" @bind-Value="child.Age"/>
-        </div>
-        <div class="form-group">
-            Height:<br/>
-            <InputNumber rows="4" @bind-Value="child.Height"/>
-        </div>
-        <div class="form-group">
-            Sex:<br/>
-            <InputSelect rows="4" @bind-Value="child.Sex">
-                <option value="">Select sex...</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </InputSelect>
-        </div>
+        <EditForm Model="@child">
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+            <h6>Child</h6>
+            <div class="form-group">
+                User Id:<br/>
+                <InputNumber @bind-Value="child.Id"/>
+            </div>
+            <div class="form-group">
+                First Name:<br/>
+                <InputText rows="4" @bind-Value="child.FirstName"/>
+            </div>
+            <div class="form-group">
+                Last Name:<br/>
+                <InputText rows="4" @bind-Value="child.LastName"/>
+            </div>
+            <div class="form-group">
+                Weight:<br/>
+                <InputNumber rows="4" @bind-Value="child.Weight"/>
+            </div>
+            <div class="form-group">
+                HairColor:<br/>
+                <InputText rows="4" @bind-Value="child.HairColor"/>
+            </div>
+            <div class="form-group">
+                Eye Color:<br/>
+                <InputText rows="4" @bind-Value="child.EyeColor"/>
+            </div>
+            <div class="form-group">
+                Age:<br/>
+                <InputNumber rows="4" @bind-Value="child.Age"/>
+            </div>
+            <div class="form-group">
+                Height:<br/>
+                <InputNumber rows="4" @bind-Value="child.Height"/>
+            </div>
+            <div class="form-group">
+                Sex:<br/>
+                <InputSelect rows="4" @bind-Value="child.Sex">
+                    <option value="">Select sex...</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </InputSelect>
+            </div>
 
-    
-    </EditForm>
-</div>
+
+        </EditForm>
+    </div>
     <div class="test123">
         <EditForm Model="@pet" OnValidSubmit="@AddAnotherPet">
             <DataAnnotationsValidator/>
             <ValidationSummary/>
+            <h6>Child pets - Can add multiple</h6>
             <div class="form-group">
                 Age:<br/>
                 <InputNumber @bind-Value="pet.Age"/>
@@ -84,7 +86,9 @@
             </div>
 
             <button class="btn btn-outline-dark" type="submit">Add</button>
-                        <p style="font-size: 70%;"> <i>Can add multiple</i></p>
+            <p style="font-size: 70%;">
+                <i>Can add multiple</i>
+            </p>
 
         </EditForm>
     </div>
@@ -92,12 +96,15 @@
         <EditForm Model="@childInterest" OnValidSubmit="@AddAnotherInterest">
             <DataAnnotationsValidator/>
             <ValidationSummary/>
+            <h6>Interests, can add multiple</h6>
             <div class="form-group">
                 Name:<br/>
                 <InputText rows="4" @bind-Value="childInterest.InterestId"/>
             </div>
             <button class="btn btn-outline-dark" type="submit">Add</button>
-            <p style="font-size: 70%;"> <i>Can add multiple</i></p>
+            <p style="font-size: 70%;">
+                <i>Can add multiple</i>
+            </p>
         </EditForm>
     </div>
 </div>
@@ -119,12 +126,6 @@
         pet = new Pet();
         childInterest = new ChildInterest();
         return base.OnInitializedAsync();
-    }
-
-
-    private void SubmitPage2()
-    {
-        throw new NotImplementedException();
     }
 
     private void AddAnotherPet()
