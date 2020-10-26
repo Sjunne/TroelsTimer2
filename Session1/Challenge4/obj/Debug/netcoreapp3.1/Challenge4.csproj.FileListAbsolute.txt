@@ -10,3 +10,4 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge4\obj\Debug\n
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge4\obj\Debug\netcoreapp3.1\Challenge4.dll
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge4\obj\Debug\netcoreapp3.1\Challenge4.pdb
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge4\obj\Debug\netcoreapp3.1\Challenge4.genruntimeconfig.cache
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session1\Challenge4\obj\Debug\netcoreapp3.1\Challenge4.csprojAssemblyReference.cache

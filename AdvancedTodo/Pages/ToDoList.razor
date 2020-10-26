@@ -5,7 +5,7 @@
 
 <h1>Todo list</h1>
 <p>
-    Filter by User Id: <input type="number" @oninput="@((arg) => FilterByUserId(arg))" style="width:50px"/>
+    Filter by User Id: <input type="number" @bind-value="filterById" style="width:50px"/>
 </p>
 <p>
     Filter by completed status:
@@ -15,7 +15,10 @@
         <option>True</option>
     </select>
 </p>
-
+<p>
+    Filter:
+        <button class="btn btn-outline-dark" @onclick="loadFilter">Filter</button>
+</p>
 
 
 @if (todosToShow == null) {
@@ -44,20 +47,21 @@
                 <td>@item.Title</td>
                 <td>
                     <input type="checkbox" checked=@item.IsCompleted @onchange="@((arg) => CompletedChange(arg,item))"/>
-                    </td>
+                </td>
 
                 <td>@item.IsCompleted</td>
-                 <td>
-                                <button @onclick="@(() => RemoveTodo(item.TodoId))">
-                                    <i class="oi oi-trash" style="color:red"/>
-                                </button>
-                     </td>
+                <td>
+                    <button @onclick="@(() => RemoveTodo(item.TodoId))">
+                        <i class="oi oi-trash" style="color:red"/>
+                    </button>
+                </td>
             </tr>
            
 
         }
         </tbody>
     </table>
+    
 }
 
 
@@ -70,7 +74,7 @@
     
     private int? filterById;
     private bool? filterByIsCompleted;
-
+/*
     private void FilterByUserId(ChangeEventArgs changeEventArgs) {
         filterById = null;
         try {
@@ -79,13 +83,7 @@
         ExecuteFilter();
     }
 
-    private void FilterByCompletedStatus(ChangeEventArgs args) {
-        filterByIsCompleted = null;
-        try {
-            filterByIsCompleted = bool.Parse(args.Value.ToString());
-        } catch (Exception e) { }
-        ExecuteFilter();
-    }
+   
 
     private void ExecuteFilter() {
         todosToShow = allTodos.Where(t => 
@@ -93,25 +91,64 @@
             (filterByIsCompleted != null && t.IsCompleted == filterByIsCompleted || filterByIsCompleted == null)
             ).ToList();
     }
+    
+    */
 
-
+    private void FilterByCompletedStatus(ChangeEventArgs args) {
+        filterByIsCompleted = null;
+        try {
+            filterByIsCompleted = bool.Parse(args.Value.ToString());
+        } catch (Exception e) { }
+    }
 
 
 
     protected override async Task OnInitializedAsync() {
-        allTodos = TodosService.GetTodos();
+        //allTodos = await TodosService.GetTodosAsync();
         todosToShow = allTodos;
     }
 
-    private void RemoveTodo(int todoId) {
+    private async Task RemoveTodo(int todoId) {
         Todo todoToRemove = todosToShow.First(t => t.TodoId == todoId);
-        TodosService.RemoveTodo(todoId);
+        TodosService.RemoveTodoAsync(todoId);
         allTodos.Remove(todoToRemove);
     }
     
-    private void CompletedChange(ChangeEventArgs evt, Todo todo) {
+    private async Task CompletedChange(ChangeEventArgs evt, Todo todo) {
         todo.IsCompleted=(bool)evt.Value;
-        TodosService.Update(todo);
+        TodosService.UpdateAsync(todo);
+    }
+
+    public async Task loadFilter()
+    {
+        string query = "";
+        if (filterById != null)
+        {
+            query += "id=" + filterById;
+        }
+        if (filterByIsCompleted != null)
+        {
+            if(!query.Equals(""))
+            {
+                query += "&completed=" + filterByIsCompleted.ToString().ToLower();
+            }
+            else
+            {
+                query += "completed=" + filterByIsCompleted.ToString().ToLower();
+            }
+        }
+
+        if (!(query.Equals("")))
+        {
+            Console.WriteLine(query);
+            Task<IList<Todo>> todosAsync = TodosService.GetTodosAsync("?" + query);
+            todosToShow = await todosAsync;
+        }
+        else
+        {
+            Task<IList<Todo>> todosAsync = TodosService.GetTodosAsync("");
+            todosToShow = await todosAsync;
+        }
     }
 
 

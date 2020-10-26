@@ -4,7 +4,6 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\bin\Debug\
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\bin\Debug\netcoreapp3.1\Exercise2.1.runtimeconfig.dev.json
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\bin\Debug\netcoreapp3.1\Exercise2.1.dll
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\bin\Debug\netcoreapp3.1\Exercise2.1.pdb
-C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\obj\Debug\netcoreapp3.1\Exercise2.1.csprojAssemblyReference.cache
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\obj\Debug\netcoreapp3.1\Exercise2.1.AssemblyInfoInputs.cache
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\obj\Debug\netcoreapp3.1\Exercise2.1.AssemblyInfo.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise2.1\obj\Debug\netcoreapp3.1\Exercise2.1.csproj.CoreCompileInputs.cache
