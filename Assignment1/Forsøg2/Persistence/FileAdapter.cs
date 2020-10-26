@@ -5,7 +5,7 @@ using Models;
 
 namespace FileData
 {
-    public class FileAdapter : IfileContext
+    public class FileAdapter
     {
         private readonly FileContext FileContext = new FileContext();
         

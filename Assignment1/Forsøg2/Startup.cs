@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Forsøg2.Data;
 using Forsøg2.Data.impl;
+using Forsøg2.Network;
 using Microsoft.AspNetCore.Components.Authorization;
 using Models;
 using ModelsAddFamily;
@@ -37,7 +38,7 @@ namespace Forsøg2
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
-            services.AddSingleton<IfileContext, FileAdapter>();
+            services.AddSingleton<IfileContext, WebService>();
             services.AddSingleton<AddFamilyHolder>();
             services.AddSyncfusionBlazor();
             

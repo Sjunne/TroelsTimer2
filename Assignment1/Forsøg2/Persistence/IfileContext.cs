@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Forsøg2.Models;
 using Models;
 
@@ -6,10 +7,10 @@ namespace FileData
 {
     public interface IfileContext
     {
-        void AddAdult(Adult adult);
+        Task AddAdult(Adult adult);
         void AddFamily(Family family);
 
-        IList<Adult> getAllAdults();
+        Task<IList<Adult>> getAllAdults(string query);
         IList<Family> getAllFamilies();
     }
 }

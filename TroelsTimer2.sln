@@ -60,6 +60,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignment1", "Assignment1"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forsøg2", "Assignment1\Forsøg2\Forsøg2.csproj", "{014393D6-145B-4090-A48C-288B9C558059}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWebAPI", "TodoWebAPI\TodoWebAPI.csproj", "{C1959D82-70DB-4A6D-BA99-5EE5F0DF8BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3WebAPI", "Assignment3WebAPI\Assignment3WebAPI.csproj", "{CC149FE7-B7E0-4FBD-837E-62F733082008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +166,14 @@ Global
 		{014393D6-145B-4090-A48C-288B9C558059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{014393D6-145B-4090-A48C-288B9C558059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{014393D6-145B-4090-A48C-288B9C558059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1959D82-70DB-4A6D-BA99-5EE5F0DF8BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1959D82-70DB-4A6D-BA99-5EE5F0DF8BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1959D82-70DB-4A6D-BA99-5EE5F0DF8BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1959D82-70DB-4A6D-BA99-5EE5F0DF8BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC149FE7-B7E0-4FBD-837E-62F733082008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC149FE7-B7E0-4FBD-837E-62F733082008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC149FE7-B7E0-4FBD-837E-62F733082008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC149FE7-B7E0-4FBD-837E-62F733082008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DD08B114-6D4E-4ABF-90E2-99315E597DD9} = {47433143-21CA-4519-A8E5-55581B8E3443}

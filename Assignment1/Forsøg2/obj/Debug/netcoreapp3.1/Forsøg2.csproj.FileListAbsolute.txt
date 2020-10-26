@@ -168,3 +168,5 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\LoginDisplay.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FilterComponent.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\FilterComponent.razor.g.cs

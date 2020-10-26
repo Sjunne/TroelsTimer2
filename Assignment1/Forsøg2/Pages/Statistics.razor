@@ -119,10 +119,10 @@
         ExplodeIndex = Convert.ToInt32(args.Value);
     }
 
-    protected override void OnInitialized()
+    protected override async void OnInitialized()
     {
         base.OnInitialized();
-        Adults = File.getAllAdults();
+        //Adults = await File.getAllAdults();
         data = FillDataSOurce();
         dataSource = new List<PieData1>
         {
