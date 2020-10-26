@@ -18,8 +18,6 @@ C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcore
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Forsøg2.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Forsøg2.RazorComponent.input.cache
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -30,8 +28,6 @@ C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcore
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Forsøg2.TagHelpers.output.cache
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Forsøg2.RazorCoreGenerate.cache
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
@@ -76,8 +72,6 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddAdult.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Adults.razor.g.cs
-C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -90,8 +84,6 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddAdult.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Adults.razor.g.cs
-C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
@@ -160,3 +152,19 @@ C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcore
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily4.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily3.razor.g.cs
 C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily4.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily1.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily2.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily3.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily\AddFamily4.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily1.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily2.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily3.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily\AddFamily4.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\LoginDisplay.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Assignment1\Forsøg2\obj\Debug\netcoreapp3.1\Razor\Shared\LoginDisplay.razor.g.cs

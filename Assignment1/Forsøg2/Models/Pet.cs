@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Models {
+namespace Forsøg2.Models {
 public class Pet {
     public int Id { get; set; }
     [Required]

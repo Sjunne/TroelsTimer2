@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Forsøg2.Models;
 using Models;
 
 namespace FileData
@@ -12,7 +13,12 @@ namespace FileData
         {
             var fileContextAdults = FileContext.Adults;
             fileContextAdults.Add(adult);
-            Console.WriteLine(fileContextAdults);
+            FileContext.SaveChanges();
+        }
+
+        public void AddFamily(Family family)
+        {
+            FileContext.Families.Add(family);
             FileContext.SaveChanges();
         }
 

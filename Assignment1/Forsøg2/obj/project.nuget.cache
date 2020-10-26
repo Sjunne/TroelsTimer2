@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KNKHqpFRKn1CHN5KxVq517zWncYx0igjyjZtjEt/IDPvyf1G0rLygXRoI6uKUSbKDSuq5Y3XsDyT58cjTdJ7DA==",
+  "dgSpecHash": "3xZ0PCdwq0W8K2pf9wC3VAimQlJfUWKMvMypBUeeVrqU4z8b1u3V8nqZ5PLjBnXzif6L+5krjloRecOAJJ7qxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sjunn\\.nuget\\packages\\devexpress.blazor.projecttemplates\\20.1.6\\devexpress.blazor.projecttemplates.20.1.6.nupkg.sha512",
     "C:\\Users\\sjunn\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.8\\microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
     "C:\\Users\\sjunn\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.8\\microsoft.aspnetcore.components.3.1.8.nupkg.sha512",
     "C:\\Users\\sjunn\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.8\\microsoft.aspnetcore.components.analyzers.3.1.8.nupkg.sha512",

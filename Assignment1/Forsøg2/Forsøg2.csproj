@@ -5,11 +5,16 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="DevExpress.Blazor.ProjectTemplates" Version="20.1.6" />
       <PackageReference Include="Syncfusion.Blazor" Version="18.3.0.35" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Include="wwwroot\index.html.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\images" />
     </ItemGroup>
 
 </Project>
