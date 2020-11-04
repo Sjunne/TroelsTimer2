@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Assignment3WebAPI.Data;
 using Assignment3WebAPI.Persistence;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment3WebAPI.Controllers
@@ -31,8 +32,9 @@ namespace Assignment3WebAPI.Controllers
             [FromQuery] int? id,
             [FromQuery] string jobTitle,
             [FromQuery] int? age)
-        { 
-            IList<Adult> adults = await _Context.getAllAdults(sex,firstName,lastName,eyeColour,hairColor,height,weight,id,jobTitle, age);
+        {
+            IList<Adult> adults = await _Context.getAllAdults(sex, firstName, lastName, eyeColour, hairColor, height,
+                weight, id, jobTitle, age);
             return Ok(adults);
         }
 
@@ -55,6 +57,28 @@ namespace Assignment3WebAPI.Controllers
                 return StatusCode(500, e.Message);
             }
         }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Adult>> DeleteAdult(int id)
+        {
+            Console.WriteLine("her Delete");
+            try
+            {
+                var adultToDelete = await _Context.getAdult(id);
+
+                if (adultToDelete == null)
+                {
+                    return NotFound($"Employee with Id = {id} not found");
+                }
+
+                await _Context.removeAdult(id);
+                return  Ok();
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error deleting data");
+            }
+        }
     }
- 
 }

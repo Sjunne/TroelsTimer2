@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
+    "projectUniqueName": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
     "projectName": "TodoWebAPI",
-    "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
-    "outputPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\obj\\",
+    "projectPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
+    "outputPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -43,7 +46,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
     }
   }
 }

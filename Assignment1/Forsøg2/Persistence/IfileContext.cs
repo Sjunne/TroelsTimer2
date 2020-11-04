@@ -12,5 +12,7 @@ namespace FileData
 
         Task<IList<Adult>> getAllAdults(string query);
         IList<Family> getAllFamilies();
+
+        Task RemoveAdult(int id);
     }
 }

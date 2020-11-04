@@ -10,3 +10,15 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.dll
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.pdb
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.genruntimeconfig.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\bin\Debug\netcoreapp3.1\Exercise1.exe
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\bin\Debug\netcoreapp3.1\Exercise1.deps.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\bin\Debug\netcoreapp3.1\Exercise1.runtimeconfig.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\bin\Debug\netcoreapp3.1\Exercise1.runtimeconfig.dev.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\bin\Debug\netcoreapp3.1\Exercise1.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\bin\Debug\netcoreapp3.1\Exercise1.pdb
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.AssemblyInfoInputs.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.AssemblyInfo.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.csproj.CoreCompileInputs.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.pdb
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Exercise1\obj\Debug\netcoreapp3.1\Exercise1.genruntimeconfig.cache

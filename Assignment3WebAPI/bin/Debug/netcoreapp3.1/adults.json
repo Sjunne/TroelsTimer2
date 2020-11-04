@@ -1,29 +1,5 @@
 [
   {
-    "JobTitle": "Database Manager",
-    "Id": 0,
-    "FirstName": "Yeshua",
-    "LastName": "Magana",
-    "HairColor": "Black",
-    "EyeColor": "Blue",
-    "Age": 44,
-    "Weight": 61.4,
-    "Height": 166,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Captain",
-    "Id": 1,
-    "FirstName": "Jayden",
-    "LastName": "Harrell",
-    "HairColor": "Leverpostej",
-    "EyeColor": "Brown",
-    "Age": 43,
-    "Weight": 76.6,
-    "Height": 145,
-    "Sex": "F"
-  },
-  {
     "JobTitle": "Veterenarian",
     "Id": 2,
     "FirstName": "Titus",
@@ -36,18 +12,6 @@
     "Sex": "M"
   },
   {
-    "JobTitle": "Personal Trainer",
-    "Id": 3,
-    "FirstName": "Zaid",
-    "LastName": "Dalton",
-    "HairColor": "Black",
-    "EyeColor": "Blue",
-    "Age": 38,
-    "Weight": 34.8,
-    "Height": 179,
-    "Sex": "M"
-  },
-  {
     "JobTitle": "Talent Acquisition Coordinator",
     "Id": 4,
     "FirstName": "Ulises",
@@ -57,54 +21,6 @@
     "Age": 51,
     "Weight": 32.4,
     "Height": 177,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Electrical Engineer",
-    "Id": 5,
-    "FirstName": "Colt",
-    "LastName": "Lewis",
-    "HairColor": "Black",
-    "EyeColor": "Grey",
-    "Age": 42,
-    "Weight": 76.6,
-    "Height": 179,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Front Desk Coordinator",
-    "Id": 6,
-    "FirstName": "Zaynab",
-    "LastName": "Schultz",
-    "HairColor": "Black",
-    "EyeColor": "Grey",
-    "Age": 34,
-    "Weight": 150,
-    "Height": 160,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": "Aquatic Ecologist",
-    "Id": 7,
-    "FirstName": "Kaidence",
-    "LastName": "Ferguson",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 37,
-    "Weight": 65.8,
-    "Height": 162,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": "Casino Host",
-    "Id": 8,
-    "FirstName": "Magnus",
-    "LastName": "Rivas",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 53,
-    "Weight": 67.4,
-    "Height": 171,
     "Sex": "M"
   },
   {
@@ -129,30 +45,6 @@
     "Age": 51,
     "Weight": 76,
     "Height": 165,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Hairdresser",
-    "Id": 11,
-    "FirstName": "Landry",
-    "LastName": "Armstrong",
-    "HairColor": "Brown",
-    "EyeColor": "Blue",
-    "Age": 58,
-    "Weight": 116.6,
-    "Height": 173,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Meeting Planner",
-    "Id": 12,
-    "FirstName": "Jace",
-    "LastName": "Orr",
-    "HairColor": "Green",
-    "EyeColor": "Grey",
-    "Age": 51,
-    "Weight": 71.4,
-    "Height": 171,
     "Sex": "M"
   },
   {
@@ -214,126 +106,6 @@
     "Weight": 69.4,
     "Height": 156,
     "Sex": "F"
-  },
-  {
-    "JobTitle": "Dietitian",
-    "Id": 18,
-    "FirstName": "Rayne",
-    "LastName": "Kirby",
-    "HairColor": "Black",
-    "EyeColor": "Hazel",
-    "Age": 41,
-    "Weight": 105.6,
-    "Height": 180,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": "Human Resources Director",
-    "Id": 19,
-    "FirstName": "Izayah",
-    "LastName": "Fischer",
-    "HairColor": "Black",
-    "EyeColor": "Brown",
-    "Age": 45,
-    "Weight": 102.5,
-    "Height": 178,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Superintendent",
-    "Id": 20,
-    "FirstName": "Siddharth",
-    "LastName": "Perkins",
-    "HairColor": "Black",
-    "EyeColor": "Brown",
-    "Age": 53,
-    "Weight": 43.8,
-    "Height": 179,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Civil Engineer",
-    "Id": 21,
-    "FirstName": "Dayra",
-    "LastName": "Perkins",
-    "HairColor": "Black",
-    "EyeColor": "Brown",
-    "Age": 50,
-    "Weight": 82.5,
-    "Height": 157,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": "Nail Technician",
-    "Id": 22,
-    "FirstName": "Remi",
-    "LastName": "Holmes",
-    "HairColor": "Black",
-    "EyeColor": "Blue",
-    "Age": 42,
-    "Weight": 61.2,
-    "Height": 153,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Barber",
-    "Id": 23,
-    "FirstName": "Coleman",
-    "LastName": "Zimmerman",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 59,
-    "Weight": 74.6,
-    "Height": 179,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Makeup Artist",
-    "Id": 24,
-    "FirstName": "Navya",
-    "LastName": "Anderson",
-    "HairColor": "Black",
-    "EyeColor": "Hazel",
-    "Age": 55,
-    "Weight": 139.6,
-    "Height": 152,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": "Office Manager",
-    "Id": 25,
-    "FirstName": "Lily",
-    "LastName": "Mendez",
-    "HairColor": "Black",
-    "EyeColor": "Green",
-    "Age": 57,
-    "Weight": 105.2,
-    "Height": 154,
-    "Sex": "F"
-  },
-  {
-    "JobTitle": "Dietitian",
-    "Id": 26,
-    "FirstName": "Kareem",
-    "LastName": "Carrillo",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 36,
-    "Weight": 60.8,
-    "Height": 177,
-    "Sex": "M"
-  },
-  {
-    "JobTitle": "Tutor",
-    "Id": 27,
-    "FirstName": "Rishi",
-    "LastName": "Harris",
-    "HairColor": "Black",
-    "EyeColor": "Brown",
-    "Age": 43,
-    "Weight": 67.2,
-    "Height": 178,
-    "Sex": "M"
   },
   {
     "JobTitle": "Actuary",
@@ -526,29 +298,5 @@
     "Weight": 249,
     "Height": 120,
     "Sex": "Female"
-  },
-  {
-    "JobTitle": "Software Newbie",
-    "Id": 42,
-    "FirstName": "Maria",
-    "LastName": "Leth",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 12,
-    "Weight": 120,
-    "Height": 120,
-    "Sex": "Female"
-  },
-  {
-    "JobTitle": "ak",
-    "Id": 43,
-    "FirstName": "Mattias",
-    "LastName": "Leth",
-    "HairColor": "Brown",
-    "EyeColor": "Brown",
-    "Age": 123,
-    "Weight": 123,
-    "Height": 123,
-    "Sex": "Male"
   }
 ]

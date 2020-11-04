@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj": {}
+    "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj": {
+    "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj",
         "projectName": "Assignment3WebAPI",
-        "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Mattias Leth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\Assignment3WebAPI.csproj",
+        "packagesPath": "C:\\Users\\sjunn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\Assignment3WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mattias Leth\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sjunn\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
