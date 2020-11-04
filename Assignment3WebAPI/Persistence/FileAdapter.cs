@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Assignment3WebAPI.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment3WebAPI.Persistence
 {
@@ -11,6 +13,7 @@ namespace Assignment3WebAPI.Persistence
         
         public async Task<Adult> AddAdult(Adult adult)
         {
+            Console.WriteLine("Add");
             int max = FileContext.Adults.Max(a => a.Id);
             adult.Id = (++max);
             FileContext.Adults.Add(adult);
@@ -34,6 +37,11 @@ namespace Assignment3WebAPI.Persistence
             return FileContext.Families;
         }
 
+        public async Task<Adult> getAdult(int id)
+        {
+            return FileContext.Adults[id];
+        }
+
         public async Task<IList<Adult>> getAllAdults(string sex, string firstName, string lastName, string eyeColour,
             string hairColor, int? height,
             float? weight, int? id, string jobTitle, int? age)
@@ -52,5 +60,11 @@ namespace Assignment3WebAPI.Persistence
                 ));
             return tmp;
         }
+
+        public async Task removeAdult(int id)
+        {
+            Console.WriteLine(id);
+           FileContext.Adults.RemoveAt(id);
+           FileContext.SaveChanges();        }
     }
 }

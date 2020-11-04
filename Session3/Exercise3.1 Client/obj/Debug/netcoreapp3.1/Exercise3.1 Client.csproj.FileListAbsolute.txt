@@ -10,3 +10,15 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.dll
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.pdb
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.genruntimeconfig.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\bin\Debug\netcoreapp3.1\Exercise3.1 Client.exe
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\bin\Debug\netcoreapp3.1\Exercise3.1 Client.deps.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\bin\Debug\netcoreapp3.1\Exercise3.1 Client.runtimeconfig.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\bin\Debug\netcoreapp3.1\Exercise3.1 Client.runtimeconfig.dev.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\bin\Debug\netcoreapp3.1\Exercise3.1 Client.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\bin\Debug\netcoreapp3.1\Exercise3.1 Client.pdb
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.AssemblyInfoInputs.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.AssemblyInfo.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.csproj.CoreCompileInputs.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.pdb
+C:\Users\sjunn\RiderProjects\TroelsTimer2\Session3\Exercise3.1 Client\obj\Debug\netcoreapp3.1\Exercise3.1 Client.genruntimeconfig.cache

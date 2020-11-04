@@ -134,3 +134,5 @@ C:\Users\sjunn\RiderProjects\TroelsTimer2\SimpleLogn\obj\Debug\netcoreapp3.1\Sim
 C:\Users\sjunn\RiderProjects\TroelsTimer2\SimpleLogn\obj\Debug\netcoreapp3.1\SimpleLogn.genruntimeconfig.cache
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\SimpleLogn\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Controller.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\SimpleLogn\obj\Debug\netcoreapp3.1\Razor\Pages\Controller.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\SimpleLogn\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Controller.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\SimpleLogn\obj\Debug\netcoreapp3.1\Razor\Pages\Controller.razor.g.cs

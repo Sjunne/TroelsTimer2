@@ -19,3 +19,24 @@ C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.dll
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.pdb
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.genruntimeconfig.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\todos.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\TodoWebAPI.exe
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\TodoWebAPI.deps.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\TodoWebAPI.runtimeconfig.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\TodoWebAPI.runtimeconfig.dev.json
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\TodoWebAPI.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\bin\Debug\netcoreapp3.1\TodoWebAPI.pdb
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.csprojAssemblyReference.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.AssemblyInfoInputs.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.AssemblyInfo.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\staticwebassets\TodoWebAPI.StaticWebAssets.Manifest.cache
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\staticwebassets\TodoWebAPI.StaticWebAssets.xml
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.dll
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.pdb
+C:\Users\sjunn\RiderProjects\TroelsTimer2\TodoWebAPI\obj\Debug\netcoreapp3.1\TodoWebAPI.genruntimeconfig.cache

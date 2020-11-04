@@ -104,3 +104,5 @@ C:\Users\sjunn\RiderProjects\TroelsTimer2\AdvancedTodo\obj\Debug\netcoreapp3.1\A
 C:\Users\sjunn\RiderProjects\TroelsTimer2\AdvancedTodo\obj\Debug\netcoreapp3.1\AdvancedTodo.csproj.CopyComplete
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\AdvancedTodo\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Profile.razor.g.cs
 C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\AdvancedTodo\obj\Debug\netcoreapp3.1\Razor\Pages\Profile.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\AdvancedTodo\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Profile.razor.g.cs
+C:\Users\sjunn\RiderProjects\TroelsTimer2\AdvancedTodo\obj\Debug\netcoreapp3.1\Razor\Pages\Profile.razor.g.cs

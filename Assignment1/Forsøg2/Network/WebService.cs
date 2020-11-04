@@ -48,5 +48,11 @@ namespace Forsøg2.Network
         {
             throw new System.NotImplementedException();
         }
+
+        public  async Task RemoveAdult(int id)
+        {
+            HttpResponseMessage message = await client.DeleteAsync("https://localhost:5004/Adult/" + id);
+            Console.WriteLine(message.StatusCode);
+        }
     }
 }
