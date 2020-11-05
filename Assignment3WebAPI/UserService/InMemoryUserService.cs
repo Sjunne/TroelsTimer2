@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Forsøg2.Models;
+using System.Threading.Tasks;
 
-namespace Forsøg2.Data.impl {
+namespace Assignment3WebAPI.UserService {
     public class InMemoryUserService : IUserService {
         private List<User> users;
 
@@ -40,7 +40,7 @@ namespace Forsøg2.Data.impl {
         }
 
 
-        public User ValidateUser(string userName, string password) {
+        public async Task<User> ValidateUser(string userName, string password) {
             User first = users.FirstOrDefault(user => user.UserName.Equals(userName));
             if (first == null) {
                 throw new Exception("User not found");

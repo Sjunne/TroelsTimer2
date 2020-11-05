@@ -1,4 +1,4 @@
-﻿namespace Assignment3WebAPI.Data
+﻿namespace Assignment3WebAPI.UserService
 {
     public class User
     {

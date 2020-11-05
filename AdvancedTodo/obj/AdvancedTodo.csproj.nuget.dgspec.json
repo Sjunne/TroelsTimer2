@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj": {}
+    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj": {
+    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj",
+        "projectUniqueName": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj",
         "projectName": "AdvancedTodo",
-        "projectPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj",
-        "packagesPath": "C:\\Users\\sjunn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\obj\\",
+        "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\AdvancedTodo.csproj",
+        "packagesPath": "C:\\Users\\Mattias Leth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\AdvancedTodo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sjunn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Mattias Leth\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -38,12 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "BlazorInputFile": {
-              "target": "Package",
-              "version": "[0.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

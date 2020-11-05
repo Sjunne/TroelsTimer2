@@ -54,5 +54,15 @@ namespace Forsøg2.Network
             HttpResponseMessage message = await client.DeleteAsync("https://localhost:5004/Adult/" + id);
             Console.WriteLine(message.StatusCode);
         }
+
+        public async Task<User> ValidateUser(string username, string password)
+        {
+            Console.WriteLine(username + "top");
+            string httpsJsonplaceholderTypicodeComTodos = "https://localhost:5004/User?username=" + username + "&password=" + password;
+            string message = await client.GetStringAsync(httpsJsonplaceholderTypicodeComTodos);
+            User result = JsonSerializer.Deserialize<User>(message);
+            Console.WriteLine(result.Password);
+            return result;
+        }
     }
 }

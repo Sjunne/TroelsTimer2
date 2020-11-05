@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj": {}
+    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj": {
+    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
-        "projectName": "TodoWebAPI",
-        "projectPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
-        "packagesPath": "C:\\Users\\sjunn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjunn\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\obj\\",
+        "projectUniqueName": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
+        "projectName": "Forsøg2",
+        "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj",
+        "packagesPath": "C:\\Users\\Mattias Leth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sjunn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Mattias Leth\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -28,6 +25,73 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DevExpress.Blazor.ProjectTemplates": {
+              "target": "Package",
+              "version": "[20.1.6, )"
+            },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[18.3.0.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
+        "projectName": "TodoWebAPI",
+        "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\TodoWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Mattias Leth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\TodoWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mattias Leth\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj": {
+                "projectPath": "C:\\Users\\Mattias Leth\\RiderProjects\\TroelsTimer2\\Assignment1\\Forsøg2\\Forsøg2.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -56,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

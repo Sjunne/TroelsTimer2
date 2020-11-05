@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
 using System.Text.Json;
+using FileData;
 using Forsøg2.Data;
 using Forsøg2.Models;
 
@@ -13,11 +14,11 @@ namespace Forsøg2.Authentication
     public class CustomAuthenticationStateProvider : AuthenticationStateProvider
     {
         private readonly IJSRuntime jsRuntime;
-        private readonly IUserService userService;
+        private readonly IfileContext userService;
         
         private User cachedUser;
 
-        public CustomAuthenticationStateProvider(IJSRuntime jsRuntime, IUserService userService)
+        public CustomAuthenticationStateProvider(IJSRuntime jsRuntime, IfileContext userService)
         {
             this.jsRuntime = jsRuntime;
             this.userService = userService;
@@ -46,16 +47,17 @@ namespace Forsøg2.Authentication
         }
 
 
-        public void ValidateLogin(string username, string password)
+        public async void ValidateLogin(string username, string password)
         {
             Console.WriteLine("Validate log in");
+            Console.WriteLine(username + "Authen" + password);
             if (string.IsNullOrEmpty(username)) throw new Exception("Enter Username");
             if (string.IsNullOrEmpty(password)) throw new Exception("Enter Password");
             
             ClaimsIdentity identity = new ClaimsIdentity();
             try
             {
-                User user = userService.ValidateUser(username, password);
+                User user = await userService.ValidateUser(username, password);
                 identity = SetupClaimsForUser(user);
                 string serialisedDate = JsonSerializer.Serialize(user);
                 jsRuntime.InvokeVoidAsync("sessionStorage.getitem", "currentUser", serialisedDate);
@@ -63,6 +65,7 @@ namespace Forsøg2.Authentication
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.Message);
                 throw e;
             }
             

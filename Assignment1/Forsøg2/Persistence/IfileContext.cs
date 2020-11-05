@@ -14,5 +14,6 @@ namespace FileData
         IList<Family> getAllFamilies();
 
         Task RemoveAdult(int id);
+        Task<User> ValidateUser(string username, string password);
     }
 }

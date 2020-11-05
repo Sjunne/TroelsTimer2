@@ -64,7 +64,13 @@ namespace Assignment3WebAPI.Persistence
         public async Task removeAdult(int id)
         {
             Console.WriteLine(id);
-           FileContext.Adults.RemoveAt(id);
+            for (int i = 0; i < FileContext.Adults.Count; i++)
+            {
+                if (FileContext.Adults[i].Id == id)
+                {
+                    FileContext.Adults.RemoveAt(i);
+                }
+            }
            FileContext.SaveChanges();        }
     }
 }

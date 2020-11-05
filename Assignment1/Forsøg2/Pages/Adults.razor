@@ -59,204 +59,207 @@ else
     </table>
 }
 
-@code {
-    private IList<Adult> adultsToShow;
-    private IList<Adult> allAdults;
+    @code {
+        private IList<Adult> adultsToShow;
+        private IList<Adult> allAdults;
 
-    private string nameFilter;
-    private int minAge;
-    private FilterComponent filterComponent;
+        private string nameFilter;
+        private int minAge;
+        private FilterComponent filterComponent;
 
-    private string searchValue = "";
-    
-    protected override async Task OnInitializedAsync() {
-        //allAdults = await File.getAllAdults(); Dont wanna overload
-        adultsToShow = new List<Adult>();
-    }
-
-    private void ExecuteFilter(ChangeEventArgs changeEventArgs)
-    {
-        nameFilter = changeEventArgs.Value.ToString();
-        try
-        {
-            switch (searchValue)
-            {
-                case "FirstName":
-                    adultsToShow = allAdults.Where(t =>
-                        (nameFilter != null && t.FirstName.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-
-                case "LastName":
-                    adultsToShow = allAdults.Where(t =>
-                        (nameFilter != null && t.LastName.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-
-                case "Age":
-                    adultsToShow = allAdults.Where(t => (nameFilter != null && t.Age == int.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-
-                case "EyeColour":
-                    adultsToShow = allAdults.Where(t =>
-                        (nameFilter != null && t.EyeColor.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-
-                case "HairColour":
-                    adultsToShow = allAdults.Where(t =>
-                        (nameFilter != null && t.HairColor.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-
-                case "Height":
-                    adultsToShow = allAdults.Where(t => (nameFilter != null && t.Height == int.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-
-                case "Weight":
-                    adultsToShow = allAdults.Where(t => (nameFilter != null && t.Weight == float.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
-                    break;
-            }
-        }
-        catch (FormatException e)
-        {
-            adultsToShow = allAdults;
-        }
-    }
-
-    private async void ApplyFilter()
-    {
-        string query = "";
-        if (filterComponent.firstName != null)
-        {
-            query += "firstName=" + filterComponent.firstName;
-        }
-        if (filterComponent.lastName != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&lastName=" + filterComponent.lastName;
-            }
-            else
-            {
-                query += "lastname=" + filterComponent.lastName;
-            }
-        }
-        if (filterComponent.jobTitle != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&jobTitle=" + filterComponent.jobTitle;
-            }
-            else
-            {
-                query += "jobTitle=" + filterComponent.jobTitle;
-            }
-        }
-        if (filterComponent.eyeColor != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&eyeColor=" + filterComponent.eyeColor;
-            }
-            else
-            {
-                query += "eyeColor=" + filterComponent.eyeColor;
-            }
-        }
-        if (filterComponent.sex != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&sex=" + filterComponent.sex;
-            }
-            else
-            {
-                query += "sex=" + filterComponent.sex;
-            }
-        }
-        if (filterComponent.hairColor != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&hairColor=" + filterComponent.hairColor;
-            }
-            else
-            {
-                query += "hairColor=" + filterComponent.hairColor;
-            }
-        }
-        if (filterComponent.age != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&age=" + filterComponent.age;
-            }
-            else
-            {
-                query += "age=" + filterComponent.age;
-            }
-        }
-        if (filterComponent.height != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&height=" + filterComponent.height;
-            }
-            else
-            {
-                query += "height=" + filterComponent.height;
-            }
-        }
-        if (filterComponent.weight != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&weight=" + filterComponent.weight;
-            }
-            else
-            {
-                query += "jobtitle=" + filterComponent.weight;
-            }
-        }
-        if (filterComponent.id != null)
-        {
-            if(!query.Equals(""))
-            {
-                query += "&id=" + filterComponent.id;
-            }
-            else
-            {
-                query += "id=" + filterComponent.id;
-            }
-        }
-        if (query != "")
-        {
-            Console.WriteLine(query);
-            adultsToShow = await File.getAllAdults("?" + query);
-            StateHasChanged();
-            Console.WriteLine(adultsToShow.Count);
-        }
-        else
-        {
-            Console.WriteLine(query + "tom");
-            adultsToShow = await File.getAllAdults("");
-            StateHasChanged();
-        }
-        filterComponent.firstName = null;
-        filterComponent.lastName = null;
-        filterComponent.age = null;
-        filterComponent.height = null;
-        filterComponent.id = null;
-        filterComponent.sex = null;
-        filterComponent.eyeColor = null;
-        filterComponent.weight = null;
-        filterComponent.hairColor = null;
+        private string searchValue = "";
         
-    }
+        protected override async Task OnInitializedAsync() {
+            //allAdults = await File.getAllAdults(); Dont wanna overload
+            adultsToShow = new List<Adult>();
+        }
 
-    private void RemoveAdult(in int itemId)
-    {
-        Console.WriteLine(itemId);
-        File.RemoveAdult(itemId);
-        ApplyFilter();
-        StateHasChanged();
-    }
+        private void ExecuteFilter(ChangeEventArgs changeEventArgs)
+        {
+            nameFilter = changeEventArgs.Value.ToString();
+            try
+            {
+                switch (searchValue)
+                {
+                    case "FirstName":
+                        adultsToShow = allAdults.Where(t =>
+                            (nameFilter != null && t.FirstName.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+
+                    case "LastName":
+                        adultsToShow = allAdults.Where(t =>
+                            (nameFilter != null && t.LastName.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+
+                    case "Age":
+                        adultsToShow = allAdults.Where(t => (nameFilter != null && t.Age == int.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+
+                    case "EyeColour":
+                        adultsToShow = allAdults.Where(t =>
+                            (nameFilter != null && t.EyeColor.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+
+                    case "HairColour":
+                        adultsToShow = allAdults.Where(t =>
+                            (nameFilter != null && t.HairColor.Contains(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+
+                    case "Height":
+                        adultsToShow = allAdults.Where(t => (nameFilter != null && t.Height == int.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+
+                    case "Weight":
+                        adultsToShow = allAdults.Where(t => (nameFilter != null && t.Weight == float.Parse(nameFilter) || string.IsNullOrEmpty(nameFilter))).ToList();
+                        break;
+                }
+            }
+            catch (FormatException e)
+            {
+                adultsToShow = allAdults;
+            }
+        }
+
+        private async void ApplyFilter()
+        {
+            string query = "";
+            if (filterComponent.firstName != null)
+            {
+                query += "firstName=" + filterComponent.firstName;
+            }
+            if (filterComponent.lastName != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&lastName=" + filterComponent.lastName;
+                }
+                else
+                {
+                    query += "lastname=" + filterComponent.lastName;
+                }
+            }
+            if (filterComponent.jobTitle != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&jobTitle=" + filterComponent.jobTitle;
+                }
+                else
+                {
+                    query += "jobTitle=" + filterComponent.jobTitle;
+                }
+            }
+            if (filterComponent.eyeColor != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&eyeColor=" + filterComponent.eyeColor;
+                }
+                else
+                {
+                    query += "eyeColor=" + filterComponent.eyeColor;
+                }
+            }
+            if (filterComponent.sex != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&sex=" + filterComponent.sex;
+                }
+                else
+                {
+                    query += "sex=" + filterComponent.sex;
+                }
+            }
+            if (filterComponent.hairColor != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&hairColor=" + filterComponent.hairColor;
+                }
+                else
+                {
+                    query += "hairColor=" + filterComponent.hairColor;
+                }
+            }
+            if (filterComponent.age != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&age=" + filterComponent.age;
+                }
+                else
+                {
+                    query += "age=" + filterComponent.age;
+                }
+            }
+            if (filterComponent.height != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&height=" + filterComponent.height;
+                }
+                else
+                {
+                    query += "height=" + filterComponent.height;
+                }
+            }
+            if (filterComponent.weight != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&weight=" + filterComponent.weight;
+                }
+                else
+                {
+                    query += "jobtitle=" + filterComponent.weight;
+                }
+            }
+            if (filterComponent.id != null)
+            {
+                if(!query.Equals(""))
+                {
+                    query += "&id=" + filterComponent.id;
+                }
+                else
+                {
+                    query += "id=" + filterComponent.id;
+                }
+            }
+            if (query != "")
+            {
+                Console.WriteLine(query);
+                adultsToShow = await File.getAllAdults("?" + query);
+                StateHasChanged();
+                Console.WriteLine(adultsToShow.Count);
+            }
+            else
+            {
+                Console.WriteLine(query + "tom");
+                adultsToShow = await File.getAllAdults("");
+                StateHasChanged();
+            }
+            filterComponent.firstName = null;
+            filterComponent.lastName = null;
+            filterComponent.age = null;
+            filterComponent.height = null;
+            filterComponent.id = null;
+            filterComponent.sex = null;
+            filterComponent.eyeColor = null;
+            filterComponent.weight = null;
+            filterComponent.hairColor = null;
+            
+        }
+
+        private async void RemoveAdult(int itemId)
+        {
+            File.RemoveAdult(itemId);
+            for (int i = 0; i < adultsToShow.Count; i++)
+            {
+                    if(adultsToShow[i].Id == itemId)
+                        adultsToShow.RemoveAt(i);
+            }
+            StateHasChanged();
+        }
 
 }

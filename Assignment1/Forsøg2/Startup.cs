@@ -13,7 +13,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Forsøg2.Data;
-using Forsøg2.Data.impl;
 using Forsøg2.Network;
 using Microsoft.AspNetCore.Components.Authorization;
 using Models;
@@ -43,7 +42,6 @@ namespace Forsøg2
             services.AddSyncfusionBlazor();
             
             
-            services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
             services.AddAuthorization(options =>

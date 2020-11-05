@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Assignment3WebAPI.Persistence;
+using Assignment3WebAPI.UserService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace Assignment3WebAPI
         {
             services.AddControllers();
             services.AddSingleton<IfileContext, FileAdapter>();
+            services.AddScoped<IUserService, InMemoryUserService>();
 
         }
 
