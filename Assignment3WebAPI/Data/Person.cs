@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 
 namespace Assignment3WebAPI.Data {
 public class Person {
-    public int Id { get; set; }
+    [Key]public int Id { get; set; }
     [NotNull]
     public string FirstName { get; set; }
     [NotNull]

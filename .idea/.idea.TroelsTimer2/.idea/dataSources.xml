@@ -7,5 +7,17 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Library\Library.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ManyToMany.db" uuid="25d44698-8f30-4214-8aac-b75b3f35690c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\ManyToManyExamples\ManyToMany.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="FamilyDBASaS.db" uuid="87a9bc54-db4d-40c3-9911-bcbde303cbe5">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Mattias Leth\RiderProjects\TroelsTimer2\Assignment3WebAPI\FamilyDBASaS.db</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -48,7 +48,9 @@
             "InterestId": "Gaming"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 0,
         "FirstName": "Honesty",
         "LastName": "Schneider",
@@ -66,7 +68,9 @@
             "InterestId": "Racing Cars"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 1,
         "FirstName": "Carmelo",
         "LastName": "Schneider",
@@ -78,7 +82,9 @@
         "Sex": "M"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Pine Street",
@@ -117,7 +123,9 @@
             "InterestId": "Kite Flying"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 2,
         "FirstName": "Eduardo",
         "LastName": "Bernard",
@@ -139,7 +147,9 @@
             "InterestId": "Kite Flying"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 3,
         "FirstName": "Nyjah",
         "LastName": "Bernard",
@@ -151,7 +161,9 @@
         "Sex": "M"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Theater Street",
@@ -182,8 +194,12 @@
         "Sex": "M"
       }
     ],
-    "Children": [],
-    "Pets": []
+    "Children": [
+
+    ],
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "California Street",
@@ -222,7 +238,9 @@
             "InterestId": "Paper Plane Flying"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 4,
         "FirstName": "Reyes",
         "LastName": "Jackson",
@@ -256,7 +274,9 @@
             "InterestId": "Painting"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 5,
         "FirstName": "Justus",
         "LastName": "Jackson",
@@ -278,7 +298,9 @@
             "InterestId": "Scout"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 6,
         "FirstName": "Zyaire",
         "LastName": "Jackson",
@@ -300,7 +322,9 @@
             "InterestId": "Painting"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 7,
         "FirstName": "Anaiyah",
         "LastName": "Jackson",
@@ -312,7 +336,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Princess Avenue",
@@ -347,7 +373,9 @@
             "InterestId": "Softball"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 8,
         "FirstName": "Aydin",
         "LastName": "Matthews",
@@ -377,7 +405,9 @@
             "InterestId": "Racing Cars"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 9,
         "FirstName": "Angel",
         "LastName": "Matthews",
@@ -389,7 +419,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Lucy Street",
@@ -432,7 +464,9 @@
             "InterestId": "Horseback Riding"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 10,
         "FirstName": "Aylen",
         "LastName": "Scott",
@@ -454,7 +488,9 @@
             "InterestId": "Fishing"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 11,
         "FirstName": "Cory",
         "LastName": "Scott",
@@ -520,7 +556,9 @@
             "InterestId": "Archery"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 12,
         "FirstName": "Roya",
         "LastName": "Nielsen",
@@ -593,7 +631,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Francis IIStreet",
@@ -632,7 +672,9 @@
             "InterestId": "Hockey"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 14,
         "FirstName": "Dawson",
         "LastName": "May",
@@ -662,7 +704,9 @@
             "InterestId": "Drawing"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 15,
         "FirstName": "Skyler",
         "LastName": "May",
@@ -674,7 +718,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Southern Millstreet Avenue",
@@ -730,7 +776,9 @@
             "InterestId": "Ballet"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 17,
         "FirstName": "Collette",
         "LastName": "Villanueva",
@@ -742,7 +790,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "China Avenue",
@@ -838,7 +888,9 @@
             "InterestId": "Hula Hoop"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 19,
         "FirstName": "Korra",
         "LastName": "Givens",
@@ -900,7 +952,9 @@
             "InterestId": "Ultimate"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 20,
         "FirstName": "Jaden",
         "LastName": "Solis",
@@ -926,7 +980,9 @@
             "InterestId": "Frozen"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 21,
         "FirstName": "Erik",
         "LastName": "Solis",
@@ -960,7 +1016,9 @@
             "InterestId": "Horseback Riding"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 22,
         "FirstName": "Jaxen",
         "LastName": "Solis",
@@ -986,7 +1044,9 @@
             "InterestId": "Barbie"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 23,
         "FirstName": "Jedidiah",
         "LastName": "Solis",
@@ -1004,7 +1064,9 @@
             "InterestId": "Scout"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 24,
         "FirstName": "Miliana",
         "LastName": "Solis",
@@ -1022,7 +1084,9 @@
             "InterestId": "Ultimate"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 25,
         "FirstName": "Bernardo",
         "LastName": "Solis",
@@ -1034,7 +1098,9 @@
         "Sex": "M"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Eastern Cestaand",
@@ -1061,7 +1127,9 @@
             "InterestId": "Hula Hoop"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 26,
         "FirstName": "Brandon",
         "LastName": "Crane",
@@ -1083,7 +1151,9 @@
             "InterestId": "Hula Hoop"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 27,
         "FirstName": "Yahir",
         "LastName": "Crane",
@@ -1109,7 +1179,9 @@
             "InterestId": "Gaming"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 28,
         "FirstName": "Berkeley",
         "LastName": "Crane",
@@ -1121,7 +1193,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Rail Avenue",
@@ -1160,7 +1234,9 @@
             "InterestId": "Bowling"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 29,
         "FirstName": "Delaney",
         "LastName": "Krause",
@@ -1205,7 +1281,9 @@
         "Sex": "M"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Pine Avenue",
@@ -1256,7 +1334,9 @@
             "InterestId": "Mountain Biking"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 31,
         "FirstName": "Octavio",
         "LastName": "Kincaid",
@@ -1311,7 +1391,9 @@
             "InterestId": "Clay Modelling"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 33,
         "FirstName": "Sonia",
         "LastName": "Kincaid",
@@ -1323,7 +1405,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Poets Street",
@@ -1374,7 +1458,9 @@
             "InterestId": "Bike Riding"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 34,
         "FirstName": "Malani",
         "LastName": "King",
@@ -1386,7 +1472,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Constitution Street",
@@ -1425,7 +1513,9 @@
             "InterestId": "Ultimate"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 35,
         "FirstName": "Madeline",
         "LastName": "Mooney",
@@ -1488,7 +1578,9 @@
             "InterestId": "Tap Dancing"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 37,
         "FirstName": "Eloisa",
         "LastName": "Mooney",
@@ -1500,7 +1592,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "New Orleans Street",
@@ -1568,7 +1662,9 @@
             "InterestId": "Softball"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 39,
         "FirstName": "Keily",
         "LastName": "Fisher",
@@ -1602,7 +1698,9 @@
             "InterestId": "Drawing"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 40,
         "FirstName": "Melannie",
         "LastName": "Fisher",
@@ -1664,7 +1762,9 @@
             "InterestId": "Handball"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 41,
         "FirstName": "Eesa",
         "LastName": "Sosa",
@@ -1690,7 +1790,9 @@
             "InterestId": "Softball"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 42,
         "FirstName": "Philip",
         "LastName": "Sosa",
@@ -1720,7 +1822,9 @@
             "InterestId": "Mountain Biking"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 43,
         "FirstName": "Alexandria",
         "LastName": "Sosa",
@@ -1732,7 +1836,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Southern Abby Avenue",
@@ -1763,7 +1869,9 @@
             "InterestId": "Board Games"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 44,
         "FirstName": "Eden",
         "LastName": "Bush",
@@ -1785,7 +1893,9 @@
             "InterestId": "Board Games"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 45,
         "FirstName": "Talon",
         "LastName": "Bush",
@@ -1811,7 +1921,9 @@
             "InterestId": "Bowling"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 46,
         "FirstName": "Karoline",
         "LastName": "Bush",
@@ -1823,7 +1935,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Pine Street",
@@ -1862,7 +1976,9 @@
             "InterestId": "Bike Riding"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 47,
         "FirstName": "Ramiro",
         "LastName": "Hurd",
@@ -1915,7 +2031,9 @@
         "Sex": "M"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Long Road Avenue",
@@ -1979,7 +2097,9 @@
             "InterestId": "Gaming"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 50,
         "FirstName": "Maci",
         "LastName": "Travis",
@@ -2005,7 +2125,9 @@
             "InterestId": "Mountain Biking"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 51,
         "FirstName": "Kya",
         "LastName": "Travis",
@@ -2064,7 +2186,9 @@
             "InterestId": "Ultimate"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 53,
         "FirstName": "Marvin",
         "LastName": "Travis",
@@ -2142,7 +2266,9 @@
             "InterestId": "Chess"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 54,
         "FirstName": "Marcos",
         "LastName": "Winters",
@@ -2168,7 +2294,9 @@
             "InterestId": "Comic Books"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 55,
         "FirstName": "Ivaan",
         "LastName": "Winters",
@@ -2194,7 +2322,9 @@
             "InterestId": "Paper Plane Flying"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 56,
         "FirstName": "Alyson",
         "LastName": "Winters",
@@ -2206,7 +2336,9 @@
         "Sex": "F"
       }
     ],
-    "Pets": []
+    "Pets": [
+
+    ]
   },
   {
     "StreetName": "Newport Street",
@@ -2265,7 +2397,9 @@
             "InterestId": "Ultimate"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 57,
         "FirstName": "Isla",
         "LastName": "Newton",
@@ -2312,7 +2446,9 @@
             "InterestId": "Roller Blading"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 59,
         "FirstName": "Jayden",
         "LastName": "Newton",
@@ -2382,7 +2518,9 @@
             "InterestId": "Swimming"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 60,
         "FirstName": "Renata",
         "LastName": "Montgomery",
@@ -2412,7 +2550,9 @@
             "InterestId": "Board Games"
           }
         ],
-        "Pets": [],
+        "Pets": [
+
+        ],
         "Id": 61,
         "FirstName": "Ren",
         "LastName": "Montgomery",
@@ -2430,110 +2570,6 @@
         "Species": "Cat",
         "Name": "Rock",
         "Age": 8
-      }
-    ]
-  },
-  {
-    "StreetName": "Engsvinget",
-    "HouseNumber": 3,
-    "Adults": [
-      {
-        "JobTitle": "asd",
-        "Id": 0,
-        "FirstName": "Mona",
-        "LastName": "Leth",
-        "HairColor": "Brown",
-        "EyeColor": "Brown",
-        "Age": 123,
-        "Weight": 123,
-        "Height": 123,
-        "Sex": "Female"
-      }
-    ],
-    "Children": [
-      {
-        "ChildInterests": [
-          {
-            "ChildId": 0,
-            "InterestId": "gaming"
-          },
-          {
-            "ChildId": 0,
-            "InterestId": "PokeGo"
-          }
-        ],
-        "Pets": [
-          {
-            "Id": 0,
-            "Species": "Hund",
-            "Name": "Basse",
-            "Age": 12
-          },
-          {
-            "Id": 0,
-            "Species": "Cat",
-            "Name": "Tiger",
-            "Age": 8
-          }
-        ],
-        "Id": 19,
-        "FirstName": "Mattias",
-        "LastName": "Leth",
-        "HairColor": "Brown",
-        "EyeColor": "Brown",
-        "Age": 123,
-        "Weight": 105,
-        "Height": 123,
-        "Sex": "Female"
-      }
-    ],
-    "Pets": [
-      {
-        "Id": 0,
-        "Species": "123",
-        "Name": "Tys",
-        "Age": 1
-      }
-    ]
-  },
-  {
-    "StreetName": "Viavej",
-    "HouseNumber": 1,
-    "Adults": [
-      {
-        "JobTitle": "123",
-        "Id": 0,
-        "FirstName": "Mattias",
-        "LastName": "Leth",
-        "HairColor": "Brown",
-        "EyeColor": "Brown",
-        "Age": 123,
-        "Weight": 123,
-        "Height": 123,
-        "Sex": "Male"
-      }
-    ],
-    "Children": [
-      {
-        "ChildInterests": [],
-        "Pets": [],
-        "Id": 0,
-        "FirstName": null,
-        "LastName": null,
-        "HairColor": "",
-        "EyeColor": null,
-        "Age": 0,
-        "Weight": 0,
-        "Height": 0,
-        "Sex": null
-      }
-    ],
-    "Pets": [
-      {
-        "Id": 0,
-        "Species": "Hund",
-        "Name": "Basse",
-        "Age": 10
       }
     ]
   }
